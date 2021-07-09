@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_sthc_research_research_work_order</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_sthc_research_research_work_order">assignment_key=Non-Med Build Validation^ORassignment_key=Non-Med Build Nursing Review^ORassignment_key=Medication Build Validation^ORassignment_key=Medication Nursing Review^ORassignment_key=prebuild^ORassignment_key=Medication Pre-Build^ORassignment_key=Migration to production^ORassignment_key=Retire PRL^stateCHANGESTO5^EQ<item endquery="false" field="assignment_key" goto="false" newquery="false" operator="=" or="false" value="Non-Med Build Validation"/>
+            <item endquery="false" field="assignment_key" goto="false" newquery="false" operator="=" or="true" value="Non-Med Build Nursing Review"/>
+            <item endquery="false" field="assignment_key" goto="false" newquery="false" operator="=" or="true" value="Medication Build Validation"/>
+            <item endquery="false" field="assignment_key" goto="false" newquery="false" operator="=" or="true" value="Medication Nursing Review"/>
+            <item endquery="false" field="assignment_key" goto="false" newquery="false" operator="=" or="true" value="prebuild"/>
+            <item endquery="false" field="assignment_key" goto="false" newquery="false" operator="=" or="true" value="Medication Pre-Build"/>
+            <item endquery="false" field="assignment_key" goto="false" newquery="false" operator="=" or="true" value="Migration to production"/>
+            <item endquery="false" field="assignment_key" goto="false" newquery="false" operator="=" or="true" value="Retire PRL"/>
+            <item display_value="Completed / Approved" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="5"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Validation Complete</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var key = current.assignment_key.toString();
+	var id = current.linked_version;
+	var gr = new GlideRecord('x_sthc_research_version');
+	gr.get(id);
+	switch(key){
+		case 'Medication Nursing Review':
+			gr.setValue('medication_nursing_greenlight',true);
+			break;
+		case 'Medication Build Validation':
+			gr.setValue('medication_pharmacy_greenlight',true);
+			break;
+		case 'Non-Med Build Validation':
+			gr.setValue('clinical_greenlight',true);
+			break;
+		case 'Non-Med Build Nursing Review':
+			gr.setValue('clinical_nursing_greenlight',true);
+			break;		
+		case 'prebuild':
+			gr.setValue('pre_build_complete',true);
+			break;
+		case 'Medication Pre-Build':
+			gr.setValue('pre_build_rx_complete',true);
+			break;
+		case 'Migration to production':
+			gr.setValue('status','4');
+			gr.setValue('active',false);
+			break;
+		case 'Retire PRL':
+			gr.setValue('retire_prl',true);
+			break;
+						
+	}
+	
+	gr.update();
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>lgomez</sys_created_by>
+        <sys_created_on>2019-12-19 23:11:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>b993a94edbf9c4d4a1dd7d8bbf961913</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Validation Complete</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_update_name>sys_script_b993a94edbf9c4d4a1dd7d8bbf961913</sys_update_name>
+        <sys_updated_by>nsessa</sys_updated_by>
+        <sys_updated_on>2021-07-07 17:37:55</sys_updated_on>
+        <template/>
+        <when>async</when>
+    </sys_script>
+</record_update>
