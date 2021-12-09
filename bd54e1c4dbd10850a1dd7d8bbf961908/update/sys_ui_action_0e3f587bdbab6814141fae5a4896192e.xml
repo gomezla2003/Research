@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>gs.getUser().isMemberOf('d227c3af6f9f710061f09ea22e3ee4ec') &amp;&amp; current.status != 4 &amp;&amp; current.sys_created_on &gt;= '2021-10-20 00:00:00' &amp;&amp; (current.version_type == 5 ||current.version_type == 1 ||current.version_type == 3  ||current.version_type == 2  ||current.version_type ==  8)</condition>
+        <condition>gs.getUser().isMemberOf('d227c3af6f9f710061f09ea22e3ee4ec') &amp;&amp; current.status != 4 &amp;&amp; current.sys_created_on &gt;= '2021-12-09 00:00:00' &amp;&amp; (current.version_type == 5 ||current.version_type == 1 ||current.version_type == 3  ||current.version_type == 2  ||current.version_type ==  8)</condition>
         <form_action>true</form_action>
         <form_button>false</form_button>
         <form_button_v2>false</form_button_v2>
@@ -53,7 +53,7 @@ action.setRedirectURL('x_sthc_research_version.do?sys_id='+ current.sys_id);]]><
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>0e3f587bdbab6814141fae5a4896192e</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>53</sys_mod_count>
         <sys_name>Cancel and Retrigger Non-Med Workflow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
@@ -62,7 +62,7 @@ action.setRedirectURL('x_sthc_research_version.do?sys_id='+ current.sys_id);]]><
         <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
         <sys_update_name>sys_ui_action_0e3f587bdbab6814141fae5a4896192e</sys_update_name>
         <sys_updated_by>NSESSA</sys_updated_by>
-        <sys_updated_on>2021-10-25 15:53:06</sys_updated_on>
+        <sys_updated_on>2021-12-09 15:26:29</sys_updated_on>
         <table>x_sthc_research_version</table>
         <u_ctv>false</u_ctv>
         <ui11_compatible>true</ui11_compatible>
