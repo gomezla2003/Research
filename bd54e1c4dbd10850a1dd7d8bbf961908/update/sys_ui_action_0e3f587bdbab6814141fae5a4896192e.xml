@@ -31,46 +31,13 @@
         <order>100</order>
         <script><![CDATA[var closedTasks = [];
 
-/*
-// CODEME cancel all open non-med build tasks
-var res = new GlideRecord('x_sthc_research_research_work_order');
-res.addQuery('linked_version',current.sys_id);
-res.addQuery('active', true);
-res.addQuery('assignment_key','Non-Medication Build');
-res.query();
-while(res.next()){
-	res.work_notes = 'Non-med workflow has been restarted. All active non-med tasks cancelled';
-	res.setValue('state',10);
-	closedTasks.push(current.number);
-	res.update();
-}
-*/
-
-/*
-// cancel non-med workflow
-var empty =[];
-var wkfw = new global.Workflow();
-var contextVar = wkfw.getContexts(current);
-while (contextVar.next()) {
-    if (contextVar.workflow_version.name != 'Research Medication SubFlow') {
-        var gr = new GlideRecord('wf_context');
-        gr.get(contextVar.sys_id);
-        new global.Workflow().cancelContext(gr);
-    }
-	
-}
-
-/*
-var w = new global.Workflow();
-    var context = w.startFlow('a1f0d429db8cecd00249be4f299619db', current) ;
-*/
-//codeme confirmation work notes using array 
 
 current.pre_build_complete = false;
 current.non_med_build_complete = false;
 current.clinical_greenlight = false;
 current.non_med_revisions = false;
 current.non_med_revisions_nursing = false;
+clinical_nursing_greenlight = false; // setting second revision to false 
 current.u_non_med_status = "";
 current.nonmed_version = "";
 current.u_has_this_request_been_retriggered = true;
@@ -89,7 +56,7 @@ action.setRedirectURL('x_sthc_research_version.do?sys_id='+ current.sys_id);]]><
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>0e3f587bdbab6814141fae5a4896192e</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name>Cancel and Retrigger Non-Med Workflow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
@@ -98,7 +65,7 @@ action.setRedirectURL('x_sthc_research_version.do?sys_id='+ current.sys_id);]]><
         <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
         <sys_update_name>sys_ui_action_0e3f587bdbab6814141fae5a4896192e</sys_update_name>
         <sys_updated_by>NSESSA</sys_updated_by>
-        <sys_updated_on>2021-05-24 16:30:55</sys_updated_on>
+        <sys_updated_on>2021-07-20 16:14:46</sys_updated_on>
         <table>x_sthc_research_version</table>
         <u_ctv>false</u_ctv>
         <ui11_compatible>true</ui11_compatible>
