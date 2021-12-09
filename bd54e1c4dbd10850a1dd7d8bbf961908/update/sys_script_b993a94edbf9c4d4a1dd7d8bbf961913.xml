@@ -43,42 +43,45 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
-	var key = current.assignment_key.toString();
-	var id = current.linked_version;
-	var gr = new GlideRecord('x_sthc_research_version');
-	gr.get(id);
-	switch(key){
-		case 'Medication Nursing Review':
-			gr.setValue('medication_nursing_greenlight',true);
-			break;
-		case 'Medication Build Validation':
-			gr.setValue('medication_pharmacy_greenlight',true);
-			break;
-		case 'Non-Med Build Validation':
-			gr.setValue('clinical_greenlight',true);
-			break;
-		case 'Non-Med Build Nursing Review':
-			gr.setValue('clinical_nursing_greenlight',true);
-			break;		
-		case 'prebuild':
-			gr.setValue('pre_build_complete',true);
-			break;
-		case 'Medication Pre-Build':
-			gr.setValue('pre_build_rx_complete',true);
-			break;
-		case 'Migration to production':
-			gr.setValue('status','4');
-			gr.setValue('active',false);
-			break;
-		case 'Retire PRL':
-			gr.setValue('retire_prl',true);
-			break;
-						
-	}
+    var assignKey = current.assignment_key.toString();
+    var identifier = current.linked_version;
+    var researchGlide = new GlideRecord('x_sthc_research_version');
+    researchGlide.get(identifier);
 	
-	gr.update();
+    switch (assignKey) {
+        case 'Medication Nursing Review':
+            researchGlide.setValue('medication_nursing_greenlight', true);
+            break;
+        case 'Medication Build Validation':
+            researchGlide.setValue('medication_pharmacy_greenlight', true);
+            break;
+        case 'Non-Med Build Validation':
+            researchGlide.setValue('clinical_greenlight', true);
+            break;
+        case 'Non-Med Build Nursing Review':
+            researchGlide.setValue('clinical_nursing_greenlight', true);
+            break;
+        case 'prebuild':
+            researchGlide.setValue('pre_build_complete', true);
+            break;
+        case 'Medication Pre-Build':
+            researchGlide.setValue('pre_build_rx_complete', true);
+            break;
+        case 'Migration to production':
+            researchGlide.setValue('status', 4);
+            researchGlide.setValue('active', false);
+            break;
+        case 'Retire PRL':
+            researchGlide.setValue('retire_prl', true);
+            break;
+        default:
+            gs.log(current.number + ' has been closed, but did not meet any criteria in BR Validation Complete');
+
+    }
+
+    researchGlide.update();
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -87,7 +90,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>b993a94edbf9c4d4a1dd7d8bbf961913</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Validation Complete</sys_name>
         <sys_overrides/>
         <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
@@ -95,9 +98,9 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
         <sys_update_name>sys_script_b993a94edbf9c4d4a1dd7d8bbf961913</sys_update_name>
-        <sys_updated_by>nsessa</sys_updated_by>
-        <sys_updated_on>2021-07-07 17:37:55</sys_updated_on>
+        <sys_updated_by>NSESSA</sys_updated_by>
+        <sys_updated_on>2021-10-07 22:50:34</sys_updated_on>
         <template/>
-        <when>async</when>
+        <when>after</when>
     </sys_script>
 </record_update>
