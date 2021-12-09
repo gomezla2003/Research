@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>Non Med Build</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>NSESSA</sys_created_by>
+        <sys_created_on>2021-07-22 22:16:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ceaa5945db69b41068a582c968961946</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Non Med Build</sys_name>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_update_name>sys_template_ceaa5945db69b41068a582c968961946</sys_update_name>
+        <sys_updated_by>NSESSA</sys_updated_by>
+        <sys_updated_on>2021-07-22 22:16:32</sys_updated_on>
+        <table>x_sthc_research_research_work_order</table>
+        <template>assigned_to=028044dc6f2e1500277218d22e3ee4dd^assignment_group=d227c3af6f9f710061f09ea22e3ee4ec^description=1^linked_version=967a1145db69b41068a582c968961973^priority=4^short_description=Non-Medication Build^state=5^work_notes=dd^EQ</template>
+        <user display_value="Nicholas Sessa">7b2aba8313b2320c7dc7d3228144b026</user>
+        <view/>
+    </sys_template>
+</record_update>
