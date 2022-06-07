@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicator_breakdowns">
+    <pa_indicator_breakdowns action="DELETE">
+        <breakdown display_value="Assignment Group">3e5109ba6f86ca4068ceda0cbb3ee4a0</breakdown>
+        <display>true</display>
+        <indicator display_value="Research Work Orders">ae27f121db9398d40249be4f29961912</indicator>
+        <order>200</order>
+        <sql_statement/>
+        <sys_class_name>pa_indicator_breakdowns</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2020-09-17 18:39:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>575fd639db1350180249be4f29961923</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Assignment Group.Research Work Orders</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_update_name>pa_indicator_breakdowns_575fd639db1350180249be4f29961923</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2020-09-17 21:23:21</sys_updated_on>
+    </pa_indicator_breakdowns>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</application>
+        <comments/>
+        <file_path/>
+        <instance_id>25bc9655a91c5d0058ebf191520622b5</instance_id>
+        <instance_name>shc</instance_name>
+        <name>pa_indicator_breakdowns_575fd639db1350180249be4f29961923</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicator_breakdowns"><pa_indicator_breakdowns action="INSERT_OR_UPDATE"><breakdown display_value="Assignment Group">3e5109ba6f86ca4068ceda0cbb3ee4a0</breakdown><display>true</display><indicator display_value="Research Work Orders">ae27f121db9398d40249be4f29961912</indicator><order>200</order><sql_statement/><sys_class_name>pa_indicator_breakdowns</sys_class_name><sys_created_by>LGOMEZ</sys_created_by><sys_created_on>2020-09-17 18:39:19</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>575fd639db1350180249be4f29961923</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Assignment Group.Research Work Orders</sys_name><sys_overrides/><sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope><sys_update_name>pa_indicator_breakdowns_575fd639db1350180249be4f29961923</sys_update_name><sys_updated_by>LGOMEZ</sys_updated_by><sys_updated_on>2020-09-17 21:23:21</sys_updated_on></pa_indicator_breakdowns></record_update>]]></payload>
+        <payload_hash>444270996</payload_hash>
+        <record_name>ae27f121db9398d40249be4f29961912</record_name>
+        <reverted_from/>
+        <source>e4052d0fdb56c010808f68461b961982</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2020-09-17 21:23:21</sys_created_on>
+        <sys_id>8ee48f79db5390180249be4f2996190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1749df349a60000001</sys_recorded_at>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2020-09-17 21:23:21</sys_updated_on>
+        <type>Indicator Breakdown</type>
+        <update_guid>46e48f795c539018d1ec5b7221d0060b</update_guid>
+        <update_guid_history>46e48f795c539018d1ec5b7221d0060b:444270996,575fd6398613501894859d549bc15629:609078166</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">c3e063f5dbdf90180249be4f29961965</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2020-09-17 23:25:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="pa_indicator_breakdowns">pa_indicator_breakdowns</sys_db_object>
+        <sys_id>00ab049b4c58431c9055bb23c9b8a544</sys_id>
+        <sys_metadata>575fd639db1350180249be4f29961923</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assignment Group.Research Work Orders</sys_name>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_parent display_value="Research Work Orders">ae27f121db9398d40249be4f29961912</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_scope_delete display_value="">b5e40924128c40e8911aefe438ab9ec1</sys_scope_delete>
+        <sys_update_name>pa_indicator_breakdowns_575fd639db1350180249be4f29961923</sys_update_name>
+        <sys_update_version display_value="pa_indicator_breakdowns_575fd639db1350180249be4f29961923">8ee48f79db5390180249be4f2996190b</sys_update_version>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2020-09-17 23:25:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_static">
+    <content_block_static action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <logged_on>false</logged_on>
+        <name>Research links</name>
+        <static_content><![CDATA[<p><a href="https://shc.service-now.com/csm?id=lf&amp;table=x_sthc_research_version&amp;filter=statusNOT%20IN3,4%5Epriority!%3D&amp;view=portal">https://shc.service-now.com/csm?id=lf&amp;table=x_sthc_research_version&amp;filter=statusNOT%20IN3,4%5Epriority!%3D&amp;view=portal</a></p>
+<p><a href="https://shc.service-now.com/csm?id=lf&amp;table=x_sthc_research_version&amp;filter=statusNOT%20IN3,4%5Epriority%3D&amp;view=portal">https://shc.service-now.com/csm?id=lf&amp;table=x_sthc_research_version&amp;filter=statusNOT%20IN3,4%5Epriority%3D&amp;view=portal</a></p>
+<p><a href="https://shc.service-now.com/csm?id=lf&amp;table=x_sthc_research_version&amp;filter=status%3D6%5Eclinical_greenlight%3Dtrue&amp;view=portal">https://shc.service-now.com/csm?id=lf&amp;table=x_sthc_research_version&amp;filter=status%3D6%5Eclinical_greenlight%3Dtrue&amp;view=portal</a></p>
+<p><a href="https://shc.service-now.com/csm?id=lf&amp;table=x_sthc_research_research_work_order&amp;filter=active%3Dtrue%5Eshort_descriptionLIKEResearch&amp;view=portal">https://shc.service-now.com/csm?id=lf&amp;table=x_sthc_research_research_work_order&amp;filter=active%3Dtrue%5Eshort_descriptionLIKEResearch&amp;view=portal</a></p>]]></static_content>
+        <sys_class_name>content_block_static</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2020-07-29 22:52:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f7a93d31dbde50140249be4f29961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Research links</sys_name>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_update_name>content_block_static_f7a93d31dbde50140249be4f29961998</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2020-07-29 22:52:22</sys_updated_on>
+    </content_block_static>
+    <sys_translated_text action="delete_multiple" query="documentkey=f7a93d31dbde50140249be4f29961998"/>
+</record_update>

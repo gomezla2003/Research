@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicator_breakdowns">
+    <pa_indicator_breakdowns action="DELETE">
+        <breakdown display_value="Assignment Group">3e5109ba6f86ca4068ceda0cbb3ee4a0</breakdown>
+        <display>true</display>
+        <indicator display_value="Project Tasks">1e43479b1b7214d09e6b85d7cc4bcb80</indicator>
+        <order>200</order>
+        <sql_statement/>
+        <sys_class_name>pa_indicator_breakdowns</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2020-08-28 16:36:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>0583c79f1b7214d09e6b85d7cc4bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assignment Group.Project Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_update_name>pa_indicator_breakdowns_0583c79f1b7214d09e6b85d7cc4bcbd3</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2020-08-28 16:36:45</sys_updated_on>
+    </pa_indicator_breakdowns>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</application>
+        <comments/>
+        <file_path/>
+        <instance_id>25bc9655a91c5d0058ebf191520622b5</instance_id>
+        <instance_name>shc</instance_name>
+        <name>pa_indicator_breakdowns_0583c79f1b7214d09e6b85d7cc4bcbd3</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicator_breakdowns"><pa_indicator_breakdowns action="INSERT_OR_UPDATE"><breakdown display_value="Assignment Group">3e5109ba6f86ca4068ceda0cbb3ee4a0</breakdown><display>true</display><indicator display_value="Project Tasks">1e43479b1b7214d09e6b85d7cc4bcb80</indicator><order>200</order><sql_statement/><sys_class_name>pa_indicator_breakdowns</sys_class_name><sys_created_by>LGOMEZ</sys_created_by><sys_created_on>2020-08-28 16:36:45</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>0583c79f1b7214d09e6b85d7cc4bcbd3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Assignment Group.Project Tasks</sys_name><sys_overrides/><sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope><sys_update_name>pa_indicator_breakdowns_0583c79f1b7214d09e6b85d7cc4bcbd3</sys_update_name><sys_updated_by>LGOMEZ</sys_updated_by><sys_updated_on>2020-08-28 16:36:45</sys_updated_on></pa_indicator_breakdowns></record_update>]]></payload>
+        <payload_hash>-1579421788</payload_hash>
+        <record_name>1e43479b1b7214d09e6b85d7cc4bcb80</record_name>
+        <reverted_from/>
+        <source>e4052d0fdb56c010808f68461b961982</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2020-08-28 16:36:45</sys_created_on>
+        <sys_id>8183c79f1b7214d09e6b85d7cc4bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17435edb8800000001</sys_recorded_at>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2020-08-28 16:36:45</sys_updated_on>
+        <type>Indicator Breakdown</type>
+        <update_guid>8983c79f5c7214d0bc78c328bea44bd8</update_guid>
+        <update_guid_history>8983c79f5c7214d0bc78c328bea44bd8:-1579421788</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">7fb303131bb214d09e6b85d7cc4bcbbd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2020-08-28 16:37:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="pa_indicator_breakdowns">pa_indicator_breakdowns</sys_db_object>
+        <sys_id>d56ae65529664ab09d4f0a4df7c447d1</sys_id>
+        <sys_metadata>0583c79f1b7214d09e6b85d7cc4bcbd3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assignment Group.Project Tasks</sys_name>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_scope_delete display_value="">b5e40924128c40e8911aefe438ab9ec1</sys_scope_delete>
+        <sys_update_name>pa_indicator_breakdowns_0583c79f1b7214d09e6b85d7cc4bcbd3</sys_update_name>
+        <sys_update_version display_value="pa_indicator_breakdowns_0583c79f1b7214d09e6b85d7cc4bcbd3">8183c79f1b7214d09e6b85d7cc4bcbd9</sys_update_version>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2020-08-28 16:37:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

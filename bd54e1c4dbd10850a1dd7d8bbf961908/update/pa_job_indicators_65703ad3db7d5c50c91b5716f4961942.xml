@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_job_indicators">
+    <pa_job_indicators action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <breakdown/>
+        <collect>1</collect>
+        <collect_indicator>true</collect_indicator>
+        <display>Research - Research Versions</display>
+        <indicator display_value="Research Versions">6a98de57dbb15c50c91b5716f496192f</indicator>
+        <job display_value="Research">6d50b2d3db7d5c50c91b5716f4961963</job>
+        <sys_class_name>pa_job_indicators</sys_class_name>
+        <sys_created_by>lgomez</sys_created_by>
+        <sys_created_on>2020-07-09 22:10:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>65703ad3db7d5c50c91b5716f4961942</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Research Versions.Research</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_update_name>pa_job_indicators_65703ad3db7d5c50c91b5716f4961942</sys_update_name>
+        <sys_updated_by>lgomez</sys_updated_by>
+        <sys_updated_on>2020-07-09 22:10:43</sys_updated_on>
+    </pa_job_indicators>
+</record_update>

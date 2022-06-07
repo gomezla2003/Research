@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="temp asset fix" max_length="40" name="x_sthc_research_temp_asset_fix" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Asset tag" label="Asset tag" max_length="40" name="u_asset_tag" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Serial number" label="Serial number" max_length="40" name="u_serial_number" type="string"/>
+        <element attributes="import_attribute_name=State" label="State" max_length="40" name="u_state" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=StockRoom" label="StockRoom" max_length="40" name="u_stockroom" type="string"/>
+    </element>
+</database>

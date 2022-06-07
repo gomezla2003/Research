@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_on_hold_status" table="x_sthc_research_version" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_on_hold_status</element>
+            <name>x_sthc_research_version</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-30 00:14:42</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>2cac06b1dbd690140249be4f2996195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_on_hold_status</sys_name>
+            <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+            <sys_update_name>sys_choice_x_sthc_research_version_u_on_hold_status</sys_update_name>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-30 00:14:42</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_on_hold_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting Dose</label>
+            <language>en</language>
+            <name>x_sthc_research_version</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-30 00:14:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c0bc4ab1dbd690140249be4f2996190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-30 00:14:59</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_on_hold_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Future ARM</label>
+            <language>en</language>
+            <name>x_sthc_research_version</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-30 00:14:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fe9c86b1dbd690140249be4f29961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-30 00:14:42</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

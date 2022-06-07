@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA New Tab">d7b1d98ddb594090a1dd7d8bbf96197c</grid_canvas>
+        <height>5</height>
+        <portal_widget display_value="Created 12-12-2019 20:59:27">de62ee7fdb694494b3d8fcfa0c961930</portal_widget>
+        <posx>0</posx>
+        <posy>3</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-12-13 03:59:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d262ee7fdb694494b3d8fcfa0c961933</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_d262ee7fdb694494b3d8fcfa0c961933</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-12-13 17:30:04</sys_updated_on>
+        <width>3</width>
+    </sys_grid_canvas_pane>
+</record_update>

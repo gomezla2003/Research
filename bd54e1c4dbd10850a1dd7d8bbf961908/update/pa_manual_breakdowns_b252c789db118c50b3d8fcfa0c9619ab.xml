@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_manual_breakdowns">
+    <pa_manual_breakdowns action="INSERT_OR_UPDATE">
+        <breakdown display_value="task.type">d75254de137e22007dc7b3228144b079</breakdown>
+        <order>100</order>
+        <sys_class_name>pa_manual_breakdowns</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-11-22 07:00:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>b252c789db118c50b3d8fcfa0c9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Research Work Order</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_update_name>pa_manual_breakdowns_b252c789db118c50b3d8fcfa0c9619ab</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-11-22 07:00:02</sys_updated_on>
+        <value>Research Work Order</value>
+    </pa_manual_breakdowns>
+</record_update>

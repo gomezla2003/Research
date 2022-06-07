@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_breakdowns">
+    <pa_breakdowns action="INSERT_OR_UPDATE">
+        <data_source/>
+        <default_filter/>
+        <description/>
+        <dimension display_value="Incident.Age.Days">c47c298ed7030100ba986f14ce61037a</dimension>
+        <display>true</display>
+        <facts_table/>
+        <field/>
+        <groups/>
+        <id>155</id>
+        <name>Research Age</name>
+        <role_override>true</role_override>
+        <roles/>
+        <script/>
+        <scripted>false</scripted>
+        <sql_statement/>
+        <sys_class_name>pa_breakdowns</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2020-09-16 20:59:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>5ed53165db5398d40249be4f2996194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Research Age</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_update_name>pa_breakdowns_5ed53165db5398d40249be4f2996194f</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2020-09-16 20:59:27</sys_updated_on>
+        <type>1</type>
+        <users/>
+        <visible_to>2</visible_to>
+    </pa_breakdowns>
+</record_update>

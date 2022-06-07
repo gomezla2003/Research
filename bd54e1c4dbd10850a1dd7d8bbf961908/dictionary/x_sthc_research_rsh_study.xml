@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="RSH Study" max_length="40" name="x_sthc_research_rsh_study" sizeclass="259" type="collection">
+        <element choice="1" label="Type" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Expanded Access" value="3"/>
+                <element inactive_on_update="false" label="Interventional" value="1"/>
+                <element inactive_on_update="false" label="Observational" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="description" type="string"/>
+        <element active="false" attributes="edge_encryption_enabled=true" label="IRB Approval Date" max_length="40" name="irb_approval_date" type="glide_date"/>
+        <element label="IRB NET Number" max_length="40" name="irb_approval_number" type="string"/>
+        <element active="false" attributes="edge_encryption_enabled=true" label="IRB Approval Status" max_length="40" name="irb_approval_status" type="string"/>
+        <element label="Name" mandatory="true" max_length="255" name="name" type="string"/>
+        <element label="NCT Number" max_length="40" name="nct_number" type="string"/>
+        <element label="Principal Investigator (PI)" mandatory="true" max_length="32" name="pi" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element active="false" attributes="encode_utf8=false" label="Pod Lead" max_length="32" name="pod_lead" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Program Type" max_length="40" name="program" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Bariatrics" value="6"/>
+                <element inactive_on_update="false" label="Cardiovascular" value="8"/>
+                <element inactive_on_update="false" label="Cellular Therapies" value="7"/>
+                <element inactive_on_update="false" label="Clinical Research" value="2"/>
+                <element inactive_on_update="false" label="Infectious Disease" value="10"/>
+                <element inactive_on_update="false" label="Neuroscience" value="5"/>
+                <element inactive_on_update="false" label="Oncology" value="1"/>
+                <element inactive_on_update="false" label="Other" value="9"/>
+                <element inactive="true" inactive_on_update="true" label="Spine" value="4"/>
+                <element inactive_on_update="false" label="Trauma" value="3"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Program / Pod Manager" max_length="32" name="program_managers" reference="sys_user" type="reference"/>
+        <element active="false" choice="1" label="Study Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Active - Closed to Enroll" value="2"/>
+                <element inactive_on_update="false" label="Active - On-Hold" value="3"/>
+                <element inactive_on_update="false" label="Active - Recruiting" value="1"/>
+                <element inactive_on_update="false" label="Inactive - Complete" value="4"/>
+                <element inactive_on_update="false" label="Under Review" value="5"/>
+            </choice>
+        </element>
+        <element label="Study Code / Protocol Number" max_length="40" name="study_code" type="string"/>
+        <element active="false" label="Study Coordinators" max_length="4000" name="study_coordinators" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Watch List" max_length="1024" name="watch_list" reference="sys_user" type="glide_list"/>
+        <index name="index">
+            <element name="pi"/>
+        </index>
+        <index name="index2">
+            <element name="program_managers"/>
+        </index>
+        <index name="index3">
+            <element name="pod_lead"/>
+        </index>
+    </element>
+</database>

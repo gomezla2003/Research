@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>priority</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set Due Date</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+	var daysOut;
+	var priority = g_form.getValue('priority');
+	switch(priority){
+		case '1':
+			daysOut = 3;
+			break;
+		case '2':
+			daysOut = 7;
+			break;
+		case '3':
+			daysOut = 21;
+			break;
+		case '4':
+			daysOut = 42;
+			break;	
+		default:
+			alert(priority);
+	}
+	
+	
+	
+	var ga = new GlideAjax('x_sthc_research.SetFutureDate');
+	ga.addParam('sysparm_name','setDate');
+	ga.addParam('sysparm_daysOut',daysOut);
+	ga.getXML(setValues);
+	
+   //Type appropriate comment here, and begin script below
+   
+}
+
+function setValues(response){
+	var answer = response.responseXML.documentElement.getAttribute("answer");
+	//alert(answer);
+	
+	g_form.setValue('due_date',answer);
+	
+	
+	
+	
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-11-22 20:09:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>2f967d15dbddcc50b3d8fcfa0c9619c2</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Set Due Date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_update_name>sys_script_client_2f967d15dbddcc50b3d8fcfa0c9619c2</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-11-22 20:55:13</sys_updated_on>
+        <table>x_sthc_research_research_work_order</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

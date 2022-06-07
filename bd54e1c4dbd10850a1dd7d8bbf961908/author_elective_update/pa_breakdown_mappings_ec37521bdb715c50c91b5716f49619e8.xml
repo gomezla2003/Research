@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_breakdown_mappings">
+    <pa_breakdown_mappings action="DELETE">
+        <breakdown display_value="Research Arm">b4275ed7db715c50c91b5716f49619af</breakdown>
+        <facts_table>x_sthc_research_version</facts_table>
+        <field>arm</field>
+        <script/>
+        <scripted>false</scripted>
+        <sys_class_name>pa_breakdown_mappings</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2020-07-09 20:20:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>ec37521bdb715c50c91b5716f49619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b4275ed7db715c50c91b5716f49619af</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_update_name>pa_breakdown_mappings_ec37521bdb715c50c91b5716f49619e8</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2020-07-09 20:20:43</sys_updated_on>
+    </pa_breakdown_mappings>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</application>
+        <comments/>
+        <file_path/>
+        <instance_id>25bc9655a91c5d0058ebf191520622b5</instance_id>
+        <instance_name>shc</instance_name>
+        <name>pa_breakdown_mappings_ec37521bdb715c50c91b5716f49619e8</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_breakdown_mappings"><pa_breakdown_mappings action="INSERT_OR_UPDATE"><breakdown display_value="Research Arm">b4275ed7db715c50c91b5716f49619af</breakdown><facts_table>x_sthc_research_version</facts_table><field>arm</field><script/><scripted>false</scripted><sys_class_name>pa_breakdown_mappings</sys_class_name><sys_created_by>LGOMEZ</sys_created_by><sys_created_on>2020-07-09 20:20:43</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>ec37521bdb715c50c91b5716f49619e8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>b4275ed7db715c50c91b5716f49619af</sys_name><sys_overrides/><sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope><sys_update_name>pa_breakdown_mappings_ec37521bdb715c50c91b5716f49619e8</sys_update_name><sys_updated_by>LGOMEZ</sys_updated_by><sys_updated_on>2020-07-09 20:20:43</sys_updated_on></pa_breakdown_mappings></record_update>]]></payload>
+        <payload_hash>233265225</payload_hash>
+        <record_name>b4275ed7db715c50c91b5716f49619af</record_name>
+        <reverted_from/>
+        <source>e4052d0fdb56c010808f68461b961982</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2020-07-09 20:20:43</sys_created_on>
+        <sys_id>1a47d29bdb715c50c91b5716f49619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173353cca960000001</sys_recorded_at>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2020-07-09 20:20:43</sys_updated_on>
+        <type>Breakdown Mapping</type>
+        <update_guid>1247d29b34715c50f5020913be481bbc</update_guid>
+        <update_guid_history>1247d29b34715c50f5020913be481bbc:233265225</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">e82b8de1db9ad8d00249be4f299619d9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2020-07-29 00:50:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="pa_breakdown_mappings">pa_breakdown_mappings</sys_db_object>
+        <sys_id>aae39a8928ce4c52aafeeeab4d3ef944</sys_id>
+        <sys_metadata>ec37521bdb715c50c91b5716f49619e8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b4275ed7db715c50c91b5716f49619af</sys_name>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_scope_delete display_value="">b5e40924128c40e8911aefe438ab9ec1</sys_scope_delete>
+        <sys_update_name>pa_breakdown_mappings_ec37521bdb715c50c91b5716f49619e8</sys_update_name>
+        <sys_update_version display_value="pa_breakdown_mappings_ec37521bdb715c50c91b5716f49619e8">1a47d29bdb715c50c91b5716f49619bc</sys_update_version>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2020-07-29 00:50:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

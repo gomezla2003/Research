@@ -33,12 +33,12 @@
         <sys_created_by>NSESSA</sys_created_by>
         <sys_created_on>2021-07-15 17:17:58</sys_created_on>
         <sys_id>6a431cfedb11309068a582c968961951</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>NSESSA</sys_updated_by>
-        <sys_updated_on>2021-07-15 18:31:14</sys_updated_on>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>Gjasser</sys_updated_by>
+        <sys_updated_on>2021-12-09 15:39:13</sys_updated_on>
         <table>x_sthc_research_version</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Research - Pharmacy update">127f4e80db230810a1dd7d8bbf9619a8</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
@@ -178,7 +178,7 @@ gs.addInfoMessage("Task for " + "Beacon Team for Migration" + " Created");
  
 //current.update();
 	</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -213,7 +213,7 @@ gs.addInfoMessage("Task for " + "Beacon Team for Migration" + " Created");
  
 //current.update();
 	</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Create migration to production task">26431cfedb11309068a582c96896195a</activity>
@@ -306,7 +306,7 @@ gs.addInfoMessage("Task for " + "Beacon Team for Migration" + " Created");
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value>22431cfedb11309068a582c968961954</value>
-        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+        <variable display_value="Workflow Instance">f25501290a0a0b2c005133d3fe2841b3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -320,7 +320,7 @@ gs.addInfoMessage("Task for " + "Beacon Team for Migration" + " Created");
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value>22431cfedb11309068a582c968961954</value>
-        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+        <variable display_value="Workflow Instance">f25501290a0a0b2c005133d3fe2841b3</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Research Medication SubFlow">ae431cfedb11309068a582c968961952</activity>
@@ -385,7 +385,7 @@ gs.addInfoMessage("Task for " + "Beacon Team for Migration" + " Created");
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value>current.clinical_greenlight = true;&#13;
 current.clinical_nursing_greenlight = true;</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -400,7 +400,7 @@ current.clinical_nursing_greenlight = true;</value>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value>current.clinical_greenlight = true;&#13;
 current.clinical_nursing_greenlight = true;</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Set Green light">66439cfedb11309068a582c968961945</activity>
@@ -464,7 +464,7 @@ current.clinical_nursing_greenlight = true;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value>pre_build_rx_complete=true^EQ</value>
-        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -478,7 +478,7 @@ current.clinical_nursing_greenlight = true;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value>pre_build_rx_complete=true^EQ</value>
-        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="set pre build">26439cfedb11309068a582c968961940</activity>
@@ -542,7 +542,7 @@ current.clinical_nursing_greenlight = true;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value/>
-        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+        <variable display_value="Wait">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -556,7 +556,7 @@ current.clinical_nursing_greenlight = true;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value/>
-        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+        <variable display_value="Timer based on">21f80cd00a0a0b2101fcd5b5defc0810</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -570,7 +570,7 @@ current.clinical_nursing_greenlight = true;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value/>
-        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+        <variable display_value="Percentage">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -584,7 +584,7 @@ current.clinical_nursing_greenlight = true;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value>1970-01-01 00:00:02</value>
-        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+        <variable display_value="Duration">c35dc0df0a0a0ba96248a7098d737925</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -598,7 +598,7 @@ current.clinical_nursing_greenlight = true;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value/>
-        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+        <variable display_value="Time after">292c91070a0a0b212543d91ffde5014c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -612,7 +612,7 @@ current.clinical_nursing_greenlight = true;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value/>
-        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+        <variable display_value="Time before">292bd15e0a0a0b215a040c701033e3c5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -627,7 +627,7 @@ current.clinical_nursing_greenlight = true;</value>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
-        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+        <variable display_value="Script">293493710a0a0b2115e3e5b4fce1d12a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -641,7 +641,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value/>
-        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+        <variable display_value="Schedule based on">4cba34da0a0a0b5200798c86eafe1203</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -655,7 +655,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value/>
-        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+        <variable display_value="Field">21fd462c0a0a0b211c997276d7806c03</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -669,7 +669,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value/>
-        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+        <variable display_value="Time zone based on">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -683,7 +683,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value/>
-        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+        <variable display_value="Schedule field">4cc6788c0a0a0b5200e6743c94001b16</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -697,7 +697,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value/>
-        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+        <variable display_value="Time zone">4cc836da0a0a0b520083ebc07da2f47c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -711,7 +711,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value/>
-        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+        <variable display_value="Time zone field">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -725,7 +725,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value/>
-        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+        <variable display_value="Schedule">4cc4a4030a0a0b52007334f001376dc5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -739,7 +739,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
-        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+        <variable display_value="Relative duration">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -753,7 +753,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value/>
-        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+        <variable display_value="Timer based on">21f80cd00a0a0b2101fcd5b5defc0810</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -767,7 +767,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value/>
-        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+        <variable display_value="Schedule based on">4cba34da0a0a0b5200798c86eafe1203</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -781,7 +781,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value/>
-        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+        <variable display_value="Time zone based on">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -795,7 +795,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value/>
-        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+        <variable display_value="Wait">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -809,7 +809,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
-        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+        <variable display_value="Relative duration">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -823,7 +823,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value>1970-01-01 00:00:02</value>
-        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+        <variable display_value="Duration">c35dc0df0a0a0ba96248a7098d737925</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -837,7 +837,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value/>
-        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+        <variable display_value="Field">21fd462c0a0a0b211c997276d7806c03</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -851,7 +851,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value/>
-        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+        <variable display_value="Schedule">4cc4a4030a0a0b52007334f001376dc5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -865,7 +865,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value/>
-        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+        <variable display_value="Schedule field">4cc6788c0a0a0b5200e6743c94001b16</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -879,7 +879,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value/>
-        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+        <variable display_value="Time zone field">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -893,7 +893,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value/>
-        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+        <variable display_value="Time zone">4cc836da0a0a0b520083ebc07da2f47c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -907,7 +907,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value/>
-        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+        <variable display_value="Percentage">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -921,7 +921,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value/>
-        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+        <variable display_value="Time before">292bd15e0a0a0b215a040c701033e3c5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -935,7 +935,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value/>
-        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+        <variable display_value="Time after">292c91070a0a0b212543d91ffde5014c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -950,7 +950,7 @@ answer = 0;</value>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
-        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+        <variable display_value="Script">293493710a0a0b2115e3e5b4fce1d12a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Wait 2 seconds">e6439cfedb11309068a582c968961941</activity>
@@ -1014,7 +1014,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value>clinical_greenlight=true^clinical_nursing_greenlight=true^medication_nursing_greenlight=true^medication_pharmacy_greenlight=true^EQ</value>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1030,7 +1030,7 @@ answer = 0;</value>
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.
 answer = true;
 </value>
-        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1044,7 +1044,7 @@ answer = true;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:58</sys_updated_on>
         <value>clinical_greenlight=true^clinical_nursing_greenlight=true^medication_nursing_greenlight=true^medication_pharmacy_greenlight=true^EQ</value>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1060,7 +1060,7 @@ answer = true;
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.
 answer = true;
 </value>
-        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Wait for all greenlights">2e431cfedb11309068a582c968961958</activity>

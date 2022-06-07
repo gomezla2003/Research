@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_sthc_research_research_work_order_tasks">x_sthc_research_research_work_order_tasks</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>RESTASK</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-11-18 21:56:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9a292544db150850a1dd7d8bbf9619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RESTASK</sys_name>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_update_name>sys_number_9a292544db150850a1dd7d8bbf9619e6</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-11-18 21:56:24</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</application>
+        <comments/>
+        <file_path/>
+        <instance_id>7ba7aed978585d004bfab063d5850db9</instance_id>
+        <instance_name>shctest</instance_name>
+        <name>sys_number_9a292544db150850a1dd7d8bbf9619e6</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_sthc_research_research_work_order_tasks">x_sthc_research_research_work_order_tasks</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>RESTASK</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>LGOMEZ</sys_created_by><sys_created_on>2019-11-18 21:56:24</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>9a292544db150850a1dd7d8bbf9619e6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>RESTASK</sys_name><sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope><sys_update_name>sys_number_9a292544db150850a1dd7d8bbf9619e6</sys_update_name><sys_updated_by>LGOMEZ</sys_updated_by><sys_updated_on>2019-11-18 21:56:24</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>1848249671</payload_hash>
+        <record_name>RESTASK</record_name>
+        <reverted_from/>
+        <source>7554e1c4dbd10850a1dd7d8bbf96190b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-11-18 21:56:25</sys_created_on>
+        <sys_id>3e29a944db150850a1dd7d8bbf9619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e8084516c0000001</sys_recorded_at>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-11-18 21:56:25</sys_updated_on>
+        <type>Number</type>
+        <update_guid>3629a944bb150850db92a34404cabcd2</update_guid>
+        <update_guid_history>3629a944bb150850db92a34404cabcd2:1848249671</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-11-18 21:56:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>055ab9e8330c40f884e3a6355eaa72c4</sys_id>
+        <sys_metadata>9a292544db150850a1dd7d8bbf9619e6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RESTASK</sys_name>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_parent display_value="">c4c86904db150850a1dd7d8bbf9619a8</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_scope_delete display_value="">b5e40924128c40e8911aefe438ab9ec1</sys_scope_delete>
+        <sys_update_name>sys_number_9a292544db150850a1dd7d8bbf9619e6</sys_update_name>
+        <sys_update_version display_value="sys_number_9a292544db150850a1dd7d8bbf9619e6">3e29a944db150850a1dd7d8bbf9619d2</sys_update_version>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-11-18 21:56:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

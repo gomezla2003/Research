@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true" audit="true" label="Request" max_length="40" name="x_sthc_research_version" sizeclass="1190" type="collection">
+        <element label="Linked Arm" max_length="32" name="arm" reference="x_sthc_research_study_arm" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Non-Med First Validation" max_length="40" name="clinical_greenlight" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Non-Med Clinical Greenlight" max_length="40" name="clinical_nursing_greenlight" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Needed in PRD by" max_length="40" name="due_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="1" label="IRB Approval Status" max_length="40" name="irb_approval_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="2"/>
+                <element inactive_on_update="false" label="Pending" value="1"/>
+                <element inactive_on_update="false" label="Rejected" value="3"/>
+            </choice>
+        </element>
+        <element label="Last Work Note" max_length="500" name="last_work_note" type="string"/>
+        <element label="Medications Revisions" max_length="40" name="medications_revisions" read_only="true" type="boolean"/>
+        <element label="Medications Revisions Nursing" max_length="40" name="medications_revisions_nursing" read_only="true" type="boolean"/>
+        <element label="Medication Build Complete" max_length="40" name="medication_build_complete" read_only="true" type="boolean"/>
+        <element label="Medication Nursing Greenlight" max_length="40" name="medication_nursing_greenlight" read_only="true" type="boolean"/>
+        <element label="Medication Pharmacy Greenlight" max_length="40" name="medication_pharmacy_greenlight" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Medication Validation" max_length="40" name="medication_validation" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No Validations Needed" value="1"/>
+                <element inactive_on_update="false" label="Pharmacy and Nursing Validation" value="3"/>
+                <element inactive_on_update="false" label="Pharmacy Validation Only" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="1" label="med Version" max_length="40" name="med_version" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="1" label="nonmed Version" max_length="40" name="nonmed_version" type="string"/>
+        <element label="Non-Med Build Complete" max_length="40" name="non_med_build_complete" read_only="true" type="boolean"/>
+        <element label="Non-Med Revisions" max_length="40" name="non_med_revisions" read_only="true" type="boolean"/>
+        <element label="Non-Med Revisions Nursing" max_length="40" name="non_med_revisions_nursing" read_only="true" type="boolean"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" dynamic_default_value="5d891d16db1dcc90a1dd7d8bbf9619d8" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
+        <element label="Pre-Build Complete" max_length="40" name="pre_build_complete" read_only="true" type="boolean"/>
+        <element label="Pre-Build Rx Complete" max_length="40" name="pre_build_rx_complete" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Priority" max_length="40" name="priority" type="string">
+            <choice>
+                <element hint="Treatment Plan / Research Record must be in PRD within 72 hours of initial request for build" inactive_on_update="false" label="Urgent" sequence="1" value="1"/>
+                <element hint="Treatment Plan / Research record must be in PRD within 7 business days of inital request for build" inactive_on_update="false" label="High" sequence="2" value="2"/>
+                <element hint="Treatment Plan / Research record must be in PRD within 3 calendar weeks of inital request for build" inactive_on_update="false" label="Normal" sequence="3" value="3"/>
+                <element hint="Treatment Plan / Research record must be in PRD within 6 calendar weeks of inital request for build" inactive_on_update="false" label="Low" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element label="Retire" max_length="40" name="retire" type="boolean"/>
+        <element label="Retire PRL" max_length="40" name="retire_prl" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="SharePoint Link" max_length="2000" name="sharepoint_link" type="url"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript: current.arm.linked_study.getDisplayValue();" label="Study Name" max_length="128" name="short_description" read_only="true" type="string"/>
+        <element choice="1" default="2" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" value="3"/>
+                <element inactive_on_update="false" label="Draft" value="5"/>
+                <element inactive_on_update="false" label="In Production" value="4"/>
+                <element inactive_on_update="false" label="In Progress" value="2"/>
+                <element inactive="true" inactive_on_update="true" label="No Med Template" value="6"/>
+                <element inactive_on_update="false" label="On Hold" value="1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Amendment/ Version" max_length="40" name="u_ammendment_version" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript: current.arm.getDisplayValue();" label="Arm Name" max_length="256" name="u_arm_name" type="string"/>
+        <element attributes="encode_utf8=false" label="Non-Med Assigned to" max_length="32" name="u_assigned_to" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Display Name" max_length="100" name="u_display_name" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Has this request been retriggered?" max_length="40" name="u_has_this_request_been_retriggered" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="IRB Approval Date" max_length="40" name="u_irb_approval_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Medication Assigned to" max_length="32" name="u_medication_assigned_to" reference="sys_user" type="reference"/>
+        <element active="false" attributes="edge_encryption_enabled=true" choice="1" label="Medication Validation" max_length="40" name="u_medication_validation" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No Validations Needed" value="1"/>
+                <element inactive_on_update="false" label="Pharmacy and Nursing Validation" value="3"/>
+                <element inactive_on_update="false" label="Pharmacy Validation Only" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Med Status" max_length="40" name="u_med_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Awaiting Dose" value="6"/>
+                <element inactive_on_update="false" label="Future ARM" value="7"/>
+                <element inactive_on_update="false" label="Med to build" value="2"/>
+                <element inactive_on_update="false" label="Migrate to PRD" value="10"/>
+                <element inactive_on_update="false" label="N/A" value="8"/>
+                <element inactive_on_update="false" label="Pending Nursing Greenlight" value="5"/>
+                <element inactive_on_update="false" label="Pending Pharmacy Greenlight" value="4"/>
+                <element inactive_on_update="false" label="Pharmacy/Nursing Greenlight" value="3"/>
+                <element inactive_on_update="false" label="Pre-build Med" value="1"/>
+            </choice>
+        </element>
+        <element attributes="no_audit_delete=true" choice="3" label="Non-Med Status" max_length="40" name="u_non_med_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Clinical Greenlight" value="4"/>
+                <element inactive_on_update="false" label="HHRI to Validate" value="1"/>
+                <element inactive_on_update="false" label="Migrate to PRD" value="7"/>
+                <element inactive_on_update="false" label="N/A" value="6"/>
+                <element inactive_on_update="false" label="Non-Med to build" value="3"/>
+                <element inactive_on_update="false" label="Pending ARM Retirement" value="5"/>
+                <element inactive_on_update="false" label="Pre-build Non Med" value="2"/>
+            </choice>
+        </element>
+        <element choice="1" label="On-Hold Status" max_length="40" name="u_on_hold_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Awaiting Dose" value="1"/>
+                <element inactive_on_update="false" label="Future ARM" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="SIV Date" max_length="40" name="u_siv_date" type="glide_date"/>
+        <element label="Version Number" max_length="40" name="version_number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request Type" mandatory="true" max_length="40" name="version_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="ARM - Retirement" sequence="0" value="10"/>
+                <element inactive="true" inactive_on_update="true" label="Cycle Build Out" sequence="0" value="2"/>
+                <element inactive_on_update="false" label="Cycle Build Out" sequence="1" value="2"/>
+                <element inactive="true" inactive_on_update="true" label="Error Correction" sequence="1" value="3"/>
+                <element inactive_on_update="false" label="Pharmacy Update" sequence="1" value="9"/>
+                <element inactive_on_update="false" label="Error Correction" sequence="2" value="3"/>
+                <element inactive="true" inactive_on_update="true" label="New Arm" sequence="2" value="1"/>
+                <element inactive="true" inactive_on_update="true" label="Amendment" sequence="3" value="5"/>
+                <element inactive_on_update="false" label="New Arm" sequence="3" value="1"/>
+                <element inactive="true" inactive_on_update="true" label="Amendment - New Arm" sequence="4" value="6"/>
+                <element inactive="true" inactive_on_update="true" label="Retirement" sequence="4" value="4"/>
+                <element inactive="true" inactive_on_update="true" label="Retirement" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Amendment" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Amendment - New Arm" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="Screening" sequence="7" value="8"/>
+                <element inactive="true" inactive_on_update="true" label="Supportive Care Plan" sequence="7" value="7"/>
+                <element inactive_on_update="false" label="Sponsor/Program Optimization" sequence="8" value="11"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Work Notes" max_length="40" name="work_notes" type="journal_input"/>
+        <index name="index">
+            <element name="u_assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="u_medication_assigned_to"/>
+        </index>
+        <index name="index3">
+            <element name="arm"/>
+        </index>
+    </element>
+</database>

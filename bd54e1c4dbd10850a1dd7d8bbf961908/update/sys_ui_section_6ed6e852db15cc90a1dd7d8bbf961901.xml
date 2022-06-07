@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Notes" section_id="6ed6e852db15cc90a1dd7d8bbf961901" sys_domain="global" table="x_sthc_research_research_work_order" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>0</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-11-25 16:53:08</sys_created_on>
+            <sys_id>14e6e092db15cc90a1dd7d8bbf96192a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_sthc_research_research_work_order" sys_domain="global" view="Default view">6ed6e852db15cc90a1dd7d8bbf961901</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-11-25 16:53:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>1</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-11-25 16:53:08</sys_created_on>
+            <sys_id>98e6e092db15cc90a1dd7d8bbf96192a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">b832d3560a0001c700d781efe21e22f5</sys_ui_formatter>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_sthc_research_research_work_order" sys_domain="global" view="Default view">6ed6e852db15cc90a1dd7d8bbf961901</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-11-25 16:53:08</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Notes</caption>
+            <header>false</header>
+            <name>x_sthc_research_research_work_order</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-11-25 16:53:00</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>6ed6e852db15cc90a1dd7d8bbf961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_sthc_research_research_work_order</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+            <sys_update_name>sys_ui_section_6ed6e852db15cc90a1dd7d8bbf961901</sys_update_name>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-11-25 16:53:00</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -34,12 +34,12 @@
         <sys_created_by>NSESSA</sys_created_by>
         <sys_created_on>2021-10-07 22:55:12</sys_created_on>
         <sys_id>e5060ef9db43381068a582c968961904</sys_id>
-        <sys_mod_count>29</sys_mod_count>
-        <sys_updated_by>NSESSA</sys_updated_by>
-        <sys_updated_on>2021-10-25 15:38:20</sys_updated_on>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_updated_by>PSHETTY</sys_updated_by>
+        <sys_updated_on>2021-12-09 16:03:34</sys_updated_on>
         <table>x_sthc_research_version</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Research New ARM">4072c253dbfa8810a1dd7d8bbf961924</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
@@ -179,7 +179,7 @@ gs.addInfoMessage("Task for " + "Beacon Team for Migration" + " Created");
  
 //current.update();
 	</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -214,7 +214,7 @@ gs.addInfoMessage("Task for " + "Beacon Team for Migration" + " Created");
  
 //current.update();
 	</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Create migration to production task">a9060ef9db43381068a582c9689619f4</activity>
@@ -296,7 +296,7 @@ gr.assignment_key = sd;&#13;
 gr.insert();&#13;
 gs.addInfoMessage("Task for " + sd + " Created");&#13;
  }</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -328,7 +328,7 @@ gr.assignment_key = sd;&#13;
 gr.insert();&#13;
 gs.addInfoMessage("Task for " + sd + " Created");&#13;
  }</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Create non-Med Build Task">29060ef9db43381068a582c9689619f6</activity>
@@ -414,7 +414,7 @@ current.update();&#13;
 &#13;
 &#13;
 </value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -450,7 +450,7 @@ current.update();&#13;
 &#13;
 &#13;
 </value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Create Validation Tasks -Non-Med Build Validation">ed060ef9db43381068a582c9689619d8</activity>
@@ -525,7 +525,7 @@ gr.setValue('linked_version', current.sys_id);&#13;
 gr.assignment_key = "prebuild";&#13;
 gr.insert();&#13;
 gs.addInfoMessage("Task for " + "HRI Epic Build Team" + " Created");</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -550,7 +550,7 @@ gr.setValue('linked_version', current.sys_id);&#13;
 gr.assignment_key = "prebuild";&#13;
 gr.insert();&#13;
 gs.addInfoMessage("Task for " + "HRI Epic Build Team" + " Created");</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Create Validation Tasks -Non-Med Build Validation">a9060ef9db43381068a582c9689619df</activity>
@@ -632,7 +632,7 @@ current.update();&#13;
 &#13;
 &#13;
 </value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -664,7 +664,7 @@ current.update();&#13;
 &#13;
 &#13;
 </value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Create Validation Tasks -Non-Med Build Validation 2">e5060ef9db43381068a582c96896190e</activity>
@@ -769,7 +769,7 @@ current.update();&#13;
 //      return 'no';
 //   }
 </value>
-        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+        <variable display_value="Script">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -783,7 +783,7 @@ current.update();&#13;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value>0</value>
-        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+        <variable display_value="Advanced">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -797,7 +797,7 @@ current.update();&#13;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value>non_med_revisions=true^ORnon_med_revisions_nursing=true^EQ</value>
-        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+        <variable display_value="Condition">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -811,7 +811,7 @@ current.update();&#13;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value>non_med_revisions=true^ORnon_med_revisions_nursing=true^EQ</value>
-        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+        <variable display_value="Condition">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -825,7 +825,7 @@ current.update();&#13;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value>0</value>
-        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+        <variable display_value="Advanced">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -851,7 +851,7 @@ current.update();&#13;
 //      return 'no';
 //   }
 </value>
-        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+        <variable display_value="Script">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="HHRI Revisions Needed">29060ef9db43381068a582c9689619e2</activity>
@@ -938,7 +938,7 @@ current.update();&#13;
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.
 answer = true;
 </value>
-        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -952,7 +952,7 @@ answer = true;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:13</sys_updated_on>
         <value>clinical_greenlight=true^ORnon_med_revisions=true^EQ</value>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -966,7 +966,7 @@ answer = true;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:13</sys_updated_on>
         <value>clinical_greenlight=true^ORnon_med_revisions=true^EQ</value>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -982,7 +982,7 @@ answer = true;
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.
 answer = true;
 </value>
-        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="HHRI Validation">e5060ef9db43381068a582c9689619f3</activity>
@@ -1048,7 +1048,7 @@ answer = true;
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.
 answer = true;
 </value>
-        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1062,7 +1062,7 @@ answer = true;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value>clinical_nursing_greenlight=true^ORnon_med_revisions_nursing=true^EQ</value>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1076,7 +1076,7 @@ answer = true;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value>clinical_nursing_greenlight=true^ORnon_med_revisions_nursing=true^EQ</value>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1092,7 +1092,7 @@ answer = true;
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.
 answer = true;
 </value>
-        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="HHRI Validation">25060ef9db43381068a582c96896190d</activity>
@@ -1156,7 +1156,7 @@ answer = true;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value>pre_build_complete=true^x_sthc_human_resou_pre_build_complete=true^EQ</value>
-        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1170,7 +1170,7 @@ answer = true;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value>pre_build_complete=true^x_sthc_human_resou_pre_build_complete=true^EQ</value>
-        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Pre-build complete">29060ef9db43381068a582c968961909</activity>
@@ -1250,7 +1250,7 @@ while (nonMed.next()) {&#13;
 	nonMed.update();&#13;
 }&#13;
 </value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1280,7 +1280,7 @@ while (nonMed.next()) {&#13;
 	nonMed.update();&#13;
 }&#13;
 </value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Remove retrigger flag and close tasks">e5060ef9db43381068a582c9689619f2</activity>
@@ -1355,7 +1355,7 @@ function startWorkflow(id) {&#13;
 }&#13;
 &#13;
 </value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1380,7 +1380,7 @@ function startWorkflow(id) {&#13;
 }&#13;
 &#13;
 </value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Restart this workflow">e9060ef9db43381068a582c968961906</activity>
@@ -1467,7 +1467,7 @@ if (current.nonmed_version &gt; 1){&#13;
 	}&#13;
 }&#13;
 </value>
-        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+        <variable display_value="Script">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1481,7 +1481,7 @@ if (current.nonmed_version &gt; 1){&#13;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+        <variable display_value="Condition">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1495,7 +1495,7 @@ if (current.nonmed_version &gt; 1){&#13;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value>1</value>
-        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+        <variable display_value="Advanced">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1509,7 +1509,7 @@ if (current.nonmed_version &gt; 1){&#13;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+        <variable display_value="Condition">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1523,7 +1523,7 @@ if (current.nonmed_version &gt; 1){&#13;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value>1</value>
-        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+        <variable display_value="Advanced">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1560,7 +1560,7 @@ if (current.nonmed_version &gt; 1){&#13;
 	}&#13;
 }&#13;
 </value>
-        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+        <variable display_value="Script">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Second validation already done already done?">a9060ef9db43381068a582c9689619e0</activity>
@@ -1646,7 +1646,7 @@ if (current.nonmed_version &gt; 1){&#13;
         <sys_updated_on>2021-10-07 22:55:13</sys_updated_on>
         <value>current.clinical_greenlight = true;&#13;
 current.clinical_nursing_greenlight = true;</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1661,7 +1661,7 @@ current.clinical_nursing_greenlight = true;</value>
         <sys_updated_on>2021-10-07 22:55:13</sys_updated_on>
         <value>current.clinical_greenlight = true;&#13;
 current.clinical_nursing_greenlight = true;</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Set Green light">a9060ef9db43381068a582c9689619f5</activity>
@@ -1729,7 +1729,7 @@ current.setValue('non_med_build_complete', false);&#13;
 current.setValue('clinical_greenlight',false);&#13;
 current.setValue('clinical_nursing_greenlight',false);&#13;
 current.update();</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1747,7 +1747,7 @@ current.setValue('non_med_build_complete', false);&#13;
 current.setValue('clinical_greenlight',false);&#13;
 current.setValue('clinical_nursing_greenlight',false);&#13;
 current.update();</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Set non-Med build Incomplete">a9060ef9db43381068a582c9689619de</activity>
@@ -1815,7 +1815,7 @@ current.setValue('non_med_build_complete', false);
 current.setValue('clinical_greenlight',false);
 current.setValue('clinical_nursing_greenlight',false);
 current.update();</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1833,7 +1833,7 @@ current.setValue('non_med_build_complete', false);
 current.setValue('clinical_greenlight',false);
 current.setValue('clinical_nursing_greenlight',false);
 current.update();</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Set non-Med build Incomplete">69060ef9db43381068a582c968961908</activity>
@@ -1897,7 +1897,7 @@ current.update();</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+        <variable display_value="Time before">292bd15e0a0a0b215a040c701033e3c5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1911,7 +1911,7 @@ current.update();</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+        <variable display_value="Time after">292c91070a0a0b212543d91ffde5014c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1925,7 +1925,7 @@ current.update();</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
-        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+        <variable display_value="Relative duration">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1939,7 +1939,7 @@ current.update();</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+        <variable display_value="Schedule">4cc4a4030a0a0b52007334f001376dc5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1953,7 +1953,7 @@ current.update();</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+        <variable display_value="Time zone based on">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1967,7 +1967,7 @@ current.update();</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+        <variable display_value="Field">21fd462c0a0a0b211c997276d7806c03</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1981,7 +1981,7 @@ current.update();</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+        <variable display_value="Wait">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1995,7 +1995,7 @@ current.update();</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value>1970-01-01 00:00:02</value>
-        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+        <variable display_value="Duration">c35dc0df0a0a0ba96248a7098d737925</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2009,7 +2009,7 @@ current.update();</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+        <variable display_value="Percentage">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2023,7 +2023,7 @@ current.update();</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+        <variable display_value="Schedule based on">4cba34da0a0a0b5200798c86eafe1203</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2038,7 +2038,7 @@ current.update();</value>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
-        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+        <variable display_value="Script">293493710a0a0b2115e3e5b4fce1d12a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2052,7 +2052,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+        <variable display_value="Time zone field">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2066,7 +2066,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+        <variable display_value="Time zone">4cc836da0a0a0b520083ebc07da2f47c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2080,7 +2080,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+        <variable display_value="Timer based on">21f80cd00a0a0b2101fcd5b5defc0810</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2094,7 +2094,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+        <variable display_value="Schedule field">4cc6788c0a0a0b5200e6743c94001b16</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2108,7 +2108,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+        <variable display_value="Timer based on">21f80cd00a0a0b2101fcd5b5defc0810</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2122,7 +2122,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+        <variable display_value="Schedule based on">4cba34da0a0a0b5200798c86eafe1203</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2136,7 +2136,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+        <variable display_value="Time zone based on">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2150,7 +2150,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+        <variable display_value="Wait">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2164,7 +2164,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value>1970-01-01 00:00:02</value>
-        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+        <variable display_value="Duration">c35dc0df0a0a0ba96248a7098d737925</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2178,7 +2178,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
-        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+        <variable display_value="Relative duration">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2192,7 +2192,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+        <variable display_value="Field">21fd462c0a0a0b211c997276d7806c03</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2206,7 +2206,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+        <variable display_value="Schedule field">4cc6788c0a0a0b5200e6743c94001b16</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2220,7 +2220,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+        <variable display_value="Schedule">4cc4a4030a0a0b52007334f001376dc5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2234,7 +2234,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+        <variable display_value="Time zone field">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2248,7 +2248,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+        <variable display_value="Time zone">4cc836da0a0a0b520083ebc07da2f47c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2262,7 +2262,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+        <variable display_value="Percentage">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2276,7 +2276,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+        <variable display_value="Time after">292c91070a0a0b212543d91ffde5014c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2290,7 +2290,7 @@ answer = 0;</value>
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+        <variable display_value="Time before">292bd15e0a0a0b215a040c701033e3c5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2305,7 +2305,7 @@ answer = 0;</value>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
-        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+        <variable display_value="Script">293493710a0a0b2115e3e5b4fce1d12a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Wait 2 seconds">21060ef9db43381068a582c9689619da</activity>
@@ -2371,7 +2371,7 @@ answer = 0;</value>
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.
 answer = true;
 </value>
-        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2385,7 +2385,7 @@ answer = true;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:13</sys_updated_on>
         <value>clinical_greenlight=true^clinical_nursing_greenlight=true^medication_nursing_greenlight=true^medication_pharmacy_greenlight=true^EQ</value>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2399,7 +2399,7 @@ answer = true;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:13</sys_updated_on>
         <value>clinical_greenlight=true^clinical_nursing_greenlight=true^medication_nursing_greenlight=true^medication_pharmacy_greenlight=true^EQ</value>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2415,7 +2415,7 @@ answer = true;
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.
 answer = true;
 </value>
-        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Wait for all greenlights">29060ef9db43381068a582c9689619f7</activity>
@@ -2479,7 +2479,7 @@ answer = true;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2511,7 +2511,7 @@ if (open_tasks.next()) {&#13;
 while(!open_tasks.next()){&#13;
 answer = true;&#13;
 } */</value>
-        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2525,7 +2525,7 @@ answer = true;&#13;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value/>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2557,7 +2557,7 @@ if (open_tasks.next()) {&#13;
 while(!open_tasks.next()){&#13;
 answer = true;&#13;
 } */</value>
-        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Wait for all tasks to close">e5060ef9db43381068a582c9689619d6</activity>
@@ -2621,7 +2621,7 @@ answer = true;&#13;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:13</sys_updated_on>
         <value>non_med_build_complete=true^EQ</value>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2637,7 +2637,7 @@ answer = true;&#13;
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.
 answer = true;
 </value>
-        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2651,7 +2651,7 @@ answer = true;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:13</sys_updated_on>
         <value>non_med_build_complete=true^EQ</value>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2667,7 +2667,7 @@ answer = true;
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.
 answer = true;
 </value>
-        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Wait for Non-Med Build">e5060ef9db43381068a582c9689619f0</activity>
@@ -2731,7 +2731,7 @@ answer = true;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value>pre_build_complete=true^EQ</value>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2747,7 +2747,7 @@ answer = true;
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
 answer = true;&#13;
 </value>
-        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2761,7 +2761,7 @@ answer = true;&#13;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value>pre_build_complete=true^EQ</value>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2777,7 +2777,7 @@ answer = true;&#13;
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
 answer = true;&#13;
 </value>
-        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="wait for Pre-build">2d060ef9db43381068a582c96896190a</activity>
@@ -2841,7 +2841,7 @@ answer = true;&#13;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value>u_has_this_request_been_retriggered=true^EQ</value>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2857,7 +2857,7 @@ answer = true;&#13;
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
 answer = true;&#13;
 </value>
-        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2871,7 +2871,7 @@ answer = true;&#13;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-10-07 22:55:12</sys_updated_on>
         <value>u_has_this_request_been_retriggered=true^EQ</value>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2887,7 +2887,7 @@ answer = true;&#13;
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
 answer = true;&#13;
 </value>
-        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Wait/Listen for possible retrigger">2d060ef9db43381068a582c9689619d7</activity>

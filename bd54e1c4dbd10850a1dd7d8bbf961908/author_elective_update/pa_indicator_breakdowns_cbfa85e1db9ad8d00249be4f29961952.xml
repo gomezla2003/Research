@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicator_breakdowns">
+    <pa_indicator_breakdowns action="DELETE">
+        <breakdown display_value="Research Arm">b4275ed7db715c50c91b5716f49619af</breakdown>
+        <display>true</display>
+        <indicator display_value="Research Requests">ecba49a1db9ad8d00249be4f29961904</indicator>
+        <order>200</order>
+        <sql_statement/>
+        <sys_class_name>pa_indicator_breakdowns</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2020-07-29 00:49:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>cbfa85e1db9ad8d00249be4f29961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Research Arm.Research Requests</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_update_name>pa_indicator_breakdowns_cbfa85e1db9ad8d00249be4f29961952</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2020-07-29 00:49:23</sys_updated_on>
+    </pa_indicator_breakdowns>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</application>
+        <comments/>
+        <file_path/>
+        <instance_id>25bc9655a91c5d0058ebf191520622b5</instance_id>
+        <instance_name>shc</instance_name>
+        <name>pa_indicator_breakdowns_cbfa85e1db9ad8d00249be4f29961952</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicator_breakdowns"><pa_indicator_breakdowns action="INSERT_OR_UPDATE"><breakdown display_value="Research Arm">b4275ed7db715c50c91b5716f49619af</breakdown><display>true</display><indicator display_value="Research Requests">ecba49a1db9ad8d00249be4f29961904</indicator><order>200</order><sql_statement/><sys_class_name>pa_indicator_breakdowns</sys_class_name><sys_created_by>LGOMEZ</sys_created_by><sys_created_on>2020-07-29 00:49:23</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>cbfa85e1db9ad8d00249be4f29961952</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Research Arm.Research Requests</sys_name><sys_overrides/><sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope><sys_update_name>pa_indicator_breakdowns_cbfa85e1db9ad8d00249be4f29961952</sys_update_name><sys_updated_by>LGOMEZ</sys_updated_by><sys_updated_on>2020-07-29 00:49:23</sys_updated_on></pa_indicator_breakdowns></record_update>]]></payload>
+        <payload_hash>-615425240</payload_hash>
+        <record_name>ecba49a1db9ad8d00249be4f29961904</record_name>
+        <reverted_from/>
+        <source>e4052d0fdb56c010808f68461b961982</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2020-07-29 00:49:24</sys_created_on>
+        <sys_id>4bfa85e1db9ad8d00249be4f29961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173980b9aae0000001</sys_recorded_at>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2020-07-29 00:49:24</sys_updated_on>
+        <type>Indicator Breakdown</type>
+        <update_guid>43fa85e1cb9ad8d0ed8d920ae5aaaa59</update_guid>
+        <update_guid_history>43fa85e1cb9ad8d0ed8d920ae5aaaa59:-615425240</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">3c2bcde1db9ad8d00249be4f29961910</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2020-07-29 00:50:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="pa_indicator_breakdowns">pa_indicator_breakdowns</sys_db_object>
+        <sys_id>59c84baefdb14b0c9d85ee4f3b9a7510</sys_id>
+        <sys_metadata>cbfa85e1db9ad8d00249be4f29961952</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Research Arm.Research Requests</sys_name>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_parent display_value="Research Requests">ecba49a1db9ad8d00249be4f29961904</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_scope_delete display_value="">b5e40924128c40e8911aefe438ab9ec1</sys_scope_delete>
+        <sys_update_name>pa_indicator_breakdowns_cbfa85e1db9ad8d00249be4f29961952</sys_update_name>
+        <sys_update_version display_value="pa_indicator_breakdowns_cbfa85e1db9ad8d00249be4f29961952">4bfa85e1db9ad8d00249be4f29961959</sys_update_version>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2020-07-29 00:50:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

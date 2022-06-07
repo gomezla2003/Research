@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="irb_approval" label="IRB Approval" language="en" table="x_sthc_research_research_work_order">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>irb_approval</element>
+            <help/>
+            <hint/>
+            <label>IRB Approval</label>
+            <language>en</language>
+            <name>x_sthc_research_research_work_order</name>
+            <plural>IRB Approvals</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-11-21 22:15:49</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>2ce735cddb5a84d08bd686171b96190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>IRB Approval</sys_name>
+            <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+            <sys_update_name>sys_documentation_x_sthc_research_research_work_order_irb_approval_en</sys_update_name>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-11-21 22:15:49</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

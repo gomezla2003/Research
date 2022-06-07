@@ -33,12 +33,12 @@
         <sys_created_by>NSESSA</sys_created_by>
         <sys_created_on>2021-07-15 17:17:35</sys_created_on>
         <sys_id>c53318fadb11309068a582c9689619f5</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>NSESSA</sys_updated_by>
-        <sys_updated_on>2021-07-15 18:28:39</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>bmanning</sys_updated_by>
+        <sys_updated_on>2021-12-15 22:51:24</sys_updated_on>
         <table>x_sthc_research_version</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Research Arm Retirement">df8dc9dadb634c50a1dd7d8bbf961955</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
@@ -178,7 +178,7 @@ gs.addInfoMessage("Task for " + "Beacon Team for Migration" + " Created");
  
 //current.update();
 	</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -213,7 +213,7 @@ gs.addInfoMessage("Task for " + "Beacon Team for Migration" + " Created");
  
 //current.update();
 	</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Create migration to production task">8d3398fedb11309068a582c968961948</activity>
@@ -294,7 +294,7 @@ gr.assignment_key = sd;&#13;
 gr.insert();&#13;
 gs.addInfoMessage("Task for " + sd + " Created");&#13;
  }</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -325,7 +325,7 @@ gr.assignment_key = sd;&#13;
 gr.insert();&#13;
 gs.addInfoMessage("Task for " + sd + " Created");&#13;
  }</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Create non-Med Build Task">093398fedb11309068a582c96896194a</activity>
@@ -418,7 +418,7 @@ gs.addInfoMessage("Task for " + sd + " Created");&#13;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:35</sys_updated_on>
         <value>status=4^EQ</value>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -434,7 +434,7 @@ gs.addInfoMessage("Task for " + sd + " Created");&#13;
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
 answer = true;&#13;
 </value>
-        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -448,7 +448,7 @@ answer = true;&#13;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:35</sys_updated_on>
         <value>status=4^EQ</value>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -464,7 +464,7 @@ answer = true;&#13;
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
 answer = true;&#13;
 </value>
-        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="retire ARM">c93398fedb11309068a582c968961945</activity>
@@ -533,7 +533,7 @@ var gr = new GlideRecord('x_sthc_research_study_arm');&#13;
 gr.get(arm);&#13;
 gr.setValue('u_arm_status',3);&#13;
 gr.update();</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -552,7 +552,7 @@ var gr = new GlideRecord('x_sthc_research_study_arm');&#13;
 gr.get(arm);&#13;
 gr.setValue('u_arm_status',3);&#13;
 gr.update();</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="set ARM to retire">0d3398fedb11309068a582c968961947</activity>
@@ -618,7 +618,7 @@ gr.update();</value>
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.
 answer = true;
 </value>
-        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -632,7 +632,7 @@ answer = true;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:35</sys_updated_on>
         <value>retire_prl=true^EQ</value>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -646,7 +646,7 @@ answer = true;
         <sys_updated_by>NSESSA</sys_updated_by>
         <sys_updated_on>2021-07-15 17:17:35</sys_updated_on>
         <value>retire_prl=true^EQ</value>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -662,7 +662,7 @@ answer = true;
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.
 answer = true;
 </value>
-        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="wait for retire task">493318fadb11309068a582c9689619f7</activity>

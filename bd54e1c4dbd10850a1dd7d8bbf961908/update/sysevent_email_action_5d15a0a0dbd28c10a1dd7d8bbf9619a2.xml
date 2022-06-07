@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>false</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Research" name="Research">0283e420dbd28c10a1dd7d8bbf9619fc</category>
+        <collection>x_sthc_research_version</collection>
+        <condition table="x_sthc_research_version">medication_nursing_greenlight=true^medication_pharmacy_greenlight=true^clinical_greenlight=true^clinical_nursing_greenlight=true^status=2^EQ<item endquery="false" field="medication_nursing_greenlight" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="medication_pharmacy_greenlight" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="clinical_greenlight" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="clinical_nursing_greenlight" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item display_value="In Progress" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>multipart/mixed</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>incident.commented</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><img style="hspace: 5px; align: left;" title="HonorHealth" src="hh_logo.pngx" alt="HonorHealth" width="210" height="50" align="left" border="" hspace="5" vspace="" /></p>
+<p>&nbsp;</p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Research Request Number: ${number} has acquired Greenlight</strong></span></p>
+<hr style="height: 2px; border: none; color: #000; background-color: #72246c;" />
+<p>&nbsp;<span style="font-size: 16px;"><strong>Request has Medication and Clinical Greenlights.&nbsp;</strong></span></p>
+<p><strong><span style="font-size: 12pt;">Description </span></strong><span style="font-size: 12pt;">${short_description}</span></p>
+<p><span style="font-size: 12pt;"><strong>Due date:</strong> ${due_date}</span></p>
+<p><span style="font-size: 12pt;"><strong>Request Type:</strong> ${version_type}<br /></span></p>
+<p><span style="font-size: 12pt;"><strong>Priority:</strong> ${linked_version.priority}<br /></span></p>
+<p><span style="font-size: 12pt;"><strong>Arm:</strong> ${arm}<br /></span></p>
+<p><span style="font-size: 12pt;">Click&nbsp;<a title="here" href="/nav_to.do?uri=x_sthc_research_version.do?sys_id=${sys_id}">here</a> to open this work order.</span></p>
+<p>&nbsp;</p>
+<hr style="height: 2px; border: none; color: #000; background-color: #72246c;" />
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Research Green light complete</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>arm.linked_study.pi,arm.linked_study.program_managers,arm.linked_study.watch_list</recipient_fields>
+        <recipient_groups>6cf60109db194090a1dd7d8bbf961959,d227c3af6f9f710061f09ea22e3ee4ec,79d68d05db194090a1dd7d8bbf961985</recipient_groups>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Research Request Number: ${number} has acquired Greenlight</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2020-01-08 23:18:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>5d15a0a0dbd28c10a1dd7d8bbf9619a2</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Research Green light complete</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_update_name>sysevent_email_action_5d15a0a0dbd28c10a1dd7d8bbf9619a2</sys_update_name>
+        <sys_updated_by>SHollien</sys_updated_by>
+        <sys_updated_on>2020-09-15 15:50:42</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>5</weight>
+        <x_ctv_sc_notify_in_connect>false</x_ctv_sc_notify_in_connect>
+    </sysevent_email_action>
+</record_update>

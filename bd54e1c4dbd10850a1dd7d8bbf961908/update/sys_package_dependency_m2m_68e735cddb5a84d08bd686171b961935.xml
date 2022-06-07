@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Execution Plan Plugin" source="com.glide.execution_plan">2170ea156f10110061f09ea22e3ee417</dependency>
+        <min_version/>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2020-01-10 18:37:26</sys_created_on>
+        <sys_id>68e735cddb5a84d08bd686171b961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-01-10 18:37:26</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

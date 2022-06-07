@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_skip_realestate" label="Skip RealEstate" language="en" table="x_ctv_fac_problem">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_skip_realestate</element>
+            <help/>
+            <hint/>
+            <label>Skip RealEstate</label>
+            <language>en</language>
+            <name>x_ctv_fac_problem</name>
+            <plural>Skip RealEstates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-02-12 23:46:56</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>4c3bb4b7db3a00d05c77a1ac0b96198c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Skip RealEstate</sys_name>
+            <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+            <sys_update_name>sys_documentation_x_ctv_fac_problem_u_skip_realestate_en</sys_update_name>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-02-12 23:46:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

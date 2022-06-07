@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dashboards">
+    <pa_dashboards action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <breakdown_source/>
+        <color>#ffffff</color>
+        <disable_multiple_element>false</disable_multiple_element>
+        <group/>
+        <groups/>
+        <is_breakdown>false</is_breakdown>
+        <managed_breakdown/>
+        <managed_publisher/>
+        <name>Research Work Orders</name>
+        <no_tabs>false</no_tabs>
+        <order/>
+        <owner display_value="Louie Gomez">9dd736c46fd4710068ceda0cbb3ee476</owner>
+        <restrict_to_roles/>
+        <role_override>true</role_override>
+        <roles/>
+        <should_migrate_permissions>false</should_migrate_permissions>
+        <sys_class_name>pa_dashboards</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-11-21 22:47:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d0b1998ddb594090a1dd7d8bbf961915</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Research Work Orders</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_update_name>pa_dashboards_d0b1998ddb594090a1dd7d8bbf961915</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-11-21 22:47:57</sys_updated_on>
+        <users/>
+        <visible_to>2</visible_to>
+    </pa_dashboards>
+</record_update>

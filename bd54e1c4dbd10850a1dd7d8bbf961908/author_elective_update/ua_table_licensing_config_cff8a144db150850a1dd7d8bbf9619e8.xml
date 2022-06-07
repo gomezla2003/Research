@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_sthc_research_research_work_order_tasks</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-11-18 21:55:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cff8a144db150850a1dd7d8bbf9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_sthc_research_research_work_order_tasks</sys_name>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_update_name>ua_table_licensing_config_cff8a144db150850a1dd7d8bbf9619e8</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-11-18 21:55:37</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</application>
+        <comments/>
+        <file_path/>
+        <instance_id>7ba7aed978585d004bfab063d5850db9</instance_id>
+        <instance_name>shctest</instance_name>
+        <name>ua_table_licensing_config_cff8a144db150850a1dd7d8bbf9619e8</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_sthc_research_research_work_order_tasks</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>LGOMEZ</sys_created_by><sys_created_on>2019-11-18 21:55:37</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>cff8a144db150850a1dd7d8bbf9619e8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_sthc_research_research_work_order_tasks</sys_name><sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope><sys_update_name>ua_table_licensing_config_cff8a144db150850a1dd7d8bbf9619e8</sys_update_name><sys_updated_by>LGOMEZ</sys_updated_by><sys_updated_on>2019-11-18 21:55:37</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>818721835</payload_hash>
+        <record_name>x_sthc_research_research_work_order_tasks</record_name>
+        <reverted_from/>
+        <source>7554e1c4dbd10850a1dd7d8bbf96190b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-11-18 21:55:37</sys_created_on>
+        <sys_id>87f8a144db150850a1dd7d8bbf9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e808395330000001</sys_recorded_at>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-11-18 21:55:37</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>8ff8a14447150850280d06aa7544b4e9</update_guid>
+        <update_guid_history>8ff8a14447150850280d06aa7544b4e9:818721835</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-11-18 21:56:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>0579c88225bf448d803bc970b0c786d1</sys_id>
+        <sys_metadata>cff8a144db150850a1dd7d8bbf9619e8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_sthc_research_research_work_order_tasks</sys_name>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_scope_delete display_value="">b5e40924128c40e8911aefe438ab9ec1</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_cff8a144db150850a1dd7d8bbf9619e8</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_cff8a144db150850a1dd7d8bbf9619e8">87f8a144db150850a1dd7d8bbf9619ea</sys_update_version>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-11-18 21:56:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

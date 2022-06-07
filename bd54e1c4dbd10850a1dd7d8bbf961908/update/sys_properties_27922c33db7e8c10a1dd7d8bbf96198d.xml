@@ -12,17 +12,17 @@
         <sys_created_on>2020-02-12 21:59:34</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>27922c33db7e8c10a1dd7d8bbf96198d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>glide.ui.x_sthc_research_version_activity.fields</sys_name>
         <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
         <sys_update_name>sys_properties_27922c33db7e8c10a1dd7d8bbf96198d</sys_update_name>
-        <sys_updated_by>NSESSA</sys_updated_by>
-        <sys_updated_on>2021-07-22 16:02:43</sys_updated_on>
+        <sys_updated_by>NGRIFFITHS</sys_updated_by>
+        <sys_updated_on>2022-04-21 21:21:56</sys_updated_on>
         <type>string</type>
-        <value>number,short_description,arm,due_date,version_type,priority,status,medication_nursing_greenlight,medication_pharmacy_greenlight,clinical_nursing_greenlight,clinical_greenlight,sys_created_on,work_notes,non_med_build_complete,nonmed_version</value>
+        <value>number,short_description,arm,due_date,version_type,priority,status,medication_nursing_greenlight,medication_pharmacy_greenlight,clinical_nursing_greenlight,clinical_greenlight,sys_created_on,work_notes,non_med_build_complete,nonmed_version,*Email*</value>
         <write_roles/>
     </sys_properties>
     <sys_translated_text action="delete_multiple" query="documentkey=27922c33db7e8c10a1dd7d8bbf96198d"/>

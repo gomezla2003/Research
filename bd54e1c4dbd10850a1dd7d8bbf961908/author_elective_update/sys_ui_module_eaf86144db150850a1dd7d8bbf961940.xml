@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Research Work Order">a4b86504db150850a1dd7d8bbf961978</application>
+        <filter/>
+        <name>Research Work Order Tasks</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_sthc_research.research_work_order_tasks_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-11-18 21:55:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>eaf86144db150850a1dd7d8bbf961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Research Work Order Tasks</sys_name>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_update_name>sys_ui_module_eaf86144db150850a1dd7d8bbf961940</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-11-18 21:55:35</sys_updated_on>
+        <table>x_sthc_research_research_work_order_tasks</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</application>
+        <comments/>
+        <file_path/>
+        <instance_id>7ba7aed978585d004bfab063d5850db9</instance_id>
+        <instance_name>shctest</instance_name>
+        <name>sys_ui_module_eaf86144db150850a1dd7d8bbf961940</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Research Work Order">a4b86504db150850a1dd7d8bbf961978</application><filter/><name>Research Work Order Tasks</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_sthc_research.research_work_order_tasks_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>LGOMEZ</sys_created_by><sys_created_on>2019-11-18 21:55:35</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>eaf86144db150850a1dd7d8bbf961940</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Research Work Order Tasks</sys_name><sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope><sys_update_name>sys_ui_module_eaf86144db150850a1dd7d8bbf961940</sys_update_name><sys_updated_by>LGOMEZ</sys_updated_by><sys_updated_on>2019-11-18 21:55:35</sys_updated_on><table>x_sthc_research_research_work_order_tasks</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-758580169</payload_hash>
+        <record_name>Research Work Order Tasks</record_name>
+        <reverted_from/>
+        <source>7554e1c4dbd10850a1dd7d8bbf96190b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-11-18 21:55:35</sys_created_on>
+        <sys_id>e2f86144db150850a1dd7d8bbf961942</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e80838de00000001</sys_recorded_at>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-11-18 21:55:35</sys_updated_on>
+        <type>Module</type>
+        <update_guid>eaf86144741508503421f818218c4a41</update_guid>
+        <update_guid_history>eaf86144741508503421f818218c4a41:-758580169</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-11-18 21:56:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>05208f01f2484f21afb4146e930c3771</sys_id>
+        <sys_metadata>eaf86144db150850a1dd7d8bbf961940</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Research Work Order Tasks</sys_name>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_scope_delete display_value="">b5e40924128c40e8911aefe438ab9ec1</sys_scope_delete>
+        <sys_update_name>sys_ui_module_eaf86144db150850a1dd7d8bbf961940</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_eaf86144db150850a1dd7d8bbf961940">e2f86144db150850a1dd7d8bbf961942</sys_update_version>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-11-18 21:56:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

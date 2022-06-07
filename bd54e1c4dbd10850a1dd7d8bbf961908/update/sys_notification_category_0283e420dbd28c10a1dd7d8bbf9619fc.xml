@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notification_category">
+    <sys_notification_category action="INSERT_OR_UPDATE">
+        <name>Research</name>
+        <short_description/>
+        <sys_class_name>sys_notification_category</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2020-01-08 23:12:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0283e420dbd28c10a1dd7d8bbf9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Research</sys_name>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_update_name>sys_notification_category_0283e420dbd28c10a1dd7d8bbf9619fc</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2020-01-08 23:12:01</sys_updated_on>
+    </sys_notification_category>
+</record_update>

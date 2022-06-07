@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="977a2d84db150850a1dd7d8bbf96190a" sys_domain="global" table="x_sthc_research_research_work_order" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-17 18:36:45</sys_created_on>
+            <sys_id>893c0fb5db8ed8140249be4f299619ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_research_research_work_order" sys_domain="global" view="Default view">977a2d84db150850a1dd7d8bbf96190a</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-17 18:36:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>1</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-17 18:36:45</sys_created_on>
+            <sys_id>053c0fb5db8ed8140249be4f299619ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_research_research_work_order" sys_domain="global" view="Default view">977a2d84db150850a1dd7d8bbf96190a</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-17 18:36:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>linked_version.medication_validation</element>
+            <position>2</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-17 18:36:45</sys_created_on>
+            <sys_id>893c0fb5db8ed8140249be4f299619ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_research_research_work_order" sys_domain="global" view="Default view">977a2d84db150850a1dd7d8bbf96190a</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-17 18:36:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>3</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-17 18:36:45</sys_created_on>
+            <sys_id>013c0fb5db8ed8140249be4f299619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_research_research_work_order" sys_domain="global" view="Default view">977a2d84db150850a1dd7d8bbf96190a</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-17 18:36:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>linked_version.arm.linked_study.irb_approval_number</element>
+            <position>4</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-17 18:36:45</sys_created_on>
+            <sys_id>853c0fb5db8ed8140249be4f299619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_research_research_work_order" sys_domain="global" view="Default view">977a2d84db150850a1dd7d8bbf96190a</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-17 18:36:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_on_hold_reason</element>
+            <position>5</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-17 18:36:45</sys_created_on>
+            <sys_id>0d3c0fb5db8ed8140249be4f299619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_research_research_work_order" sys_domain="global" view="Default view">977a2d84db150850a1dd7d8bbf96190a</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-17 18:36:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-17 18:36:45</sys_created_on>
+            <sys_id>813c0fb5db8ed8140249be4f299619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_research_research_work_order" sys_domain="global" view="Default view">977a2d84db150850a1dd7d8bbf96190a</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-17 18:36:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>study</element>
+            <position>7</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-17 18:36:45</sys_created_on>
+            <sys_id>193c0fb5db8ed8140249be4f299619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_research_research_work_order" sys_domain="global" view="Default view">977a2d84db150850a1dd7d8bbf96190a</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-17 18:36:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>linked_version.arm.linked_study.irb_approval_number</element>
+            <position>8</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-17 18:36:45</sys_created_on>
+            <sys_id>9d3c0fb5db8ed8140249be4f299619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_research_research_work_order" sys_domain="global" view="Default view">977a2d84db150850a1dd7d8bbf96190a</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-17 18:36:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>linked_version</element>
+            <position>9</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-17 18:36:45</sys_created_on>
+            <sys_id>153c0fb5db8ed8140249be4f299619b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_research_research_work_order" sys_domain="global" view="Default view">977a2d84db150850a1dd7d8bbf96190a</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-17 18:36:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>due_date</element>
+            <position>10</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-17 18:36:45</sys_created_on>
+            <sys_id>993c0fb5db8ed8140249be4f299619b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_research_research_work_order" sys_domain="global" view="Default view">977a2d84db150850a1dd7d8bbf96190a</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-17 18:36:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>11</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-17 18:36:45</sys_created_on>
+            <sys_id>113c0fb5db8ed8140249be4f299619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_research_research_work_order" sys_domain="global" view="Default view">977a2d84db150850a1dd7d8bbf96190a</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-17 18:36:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>12</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-17 18:36:45</sys_created_on>
+            <sys_id>953c0fb5db8ed8140249be4f299619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_research_research_work_order" sys_domain="global" view="Default view">977a2d84db150850a1dd7d8bbf96190a</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-17 18:36:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-17 18:36:45</sys_created_on>
+            <sys_id>1d3c0fb5db8ed8140249be4f299619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_research_research_work_order" sys_domain="global" view="Default view">977a2d84db150850a1dd7d8bbf96190a</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-17 18:36:45</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>14</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-17 18:36:45</sys_created_on>
+            <sys_id>913c0fb5db8ed8140249be4f299619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_research_research_work_order" sys_domain="global" view="Default view">977a2d84db150850a1dd7d8bbf96190a</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-17 18:36:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>linked_version.u_display_name</element>
+            <position>15</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-17 18:36:45</sys_created_on>
+            <sys_id>193c0fb5db8ed8140249be4f299619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_research_research_work_order" sys_domain="global" view="Default view">977a2d84db150850a1dd7d8bbf96190a</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-17 18:36:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>16</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-17 18:36:45</sys_created_on>
+            <sys_id>9d3c0fb5db8ed8140249be4f299619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_research_research_work_order" sys_domain="global" view="Default view">977a2d84db150850a1dd7d8bbf96190a</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-17 18:36:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>12M.x_sthc_research_research_work_order.time_card.task</element>
+            <position>17</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-17 18:36:45</sys_created_on>
+            <sys_id>153c0fb5db8ed8140249be4f299619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_research_research_work_order" sys_domain="global" view="Default view">977a2d84db150850a1dd7d8bbf96190a</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-07-17 18:36:45</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_sthc_research_research_work_order</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-11-18 22:02:11</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>977a2d84db150850a1dd7d8bbf96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_sthc_research_research_work_order</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+            <sys_update_name>sys_ui_section_977a2d84db150850a1dd7d8bbf96190a</sys_update_name>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-11-18 22:02:11</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_address_consent" label="Employee Consents to having their mailing address released" language="en" table="x_sthc_human_resou_hr_covid_screening">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_address_consent</element>
+            <help/>
+            <hint/>
+            <label>Employee Consents to having their mailing address released</label>
+            <language>en</language>
+            <name>x_sthc_human_resou_hr_covid_screening</name>
+            <plural>Employee Consents to having their mailing address released</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-07-29 22:18:15</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>87f1b575dbda50140249be4f29961994</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Employee Consents to having their mailing address released</sys_name>
+            <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+            <sys_update_name>sys_documentation_x_sthc_human_resou_hr_covid_screening_u_address_consent_en</sys_update_name>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-08-03 19:01:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

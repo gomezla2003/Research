@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="fa042052dbd1cc90a1dd7d8bbf9619fd" sys_domain="global" table="x_sthc_research_research_work_order" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-11-25 16:40:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fe042052dbd1cc90a1dd7d8bbf9619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_sthc_research_research_work_order" name="x_sthc_research_research_work_order" sys_domain="global" view="Default view">fa042052dbd1cc90a1dd7d8bbf9619fd</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_research_research_work_order" sys_domain="global" view="Default view">977a2d84db150850a1dd7d8bbf96190a</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-11-25 16:40:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-11-25 16:53:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e2d66c92db15cc90a1dd7d8bbf961930</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_sthc_research_research_work_order" name="x_sthc_research_research_work_order" sys_domain="global" view="Default view">fa042052dbd1cc90a1dd7d8bbf9619fd</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_sthc_research_research_work_order" sys_domain="global" view="Default view">6ed6e852db15cc90a1dd7d8bbf961901</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-12-05 21:08:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_sthc_research_research_work_order</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-11-25 16:40:44</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>fa042052dbd1cc90a1dd7d8bbf9619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_sthc_research_research_work_order</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+            <sys_update_name>sys_ui_form_sections_fa042052dbd1cc90a1dd7d8bbf9619fd</sys_update_name>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-11-25 16:40:44</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

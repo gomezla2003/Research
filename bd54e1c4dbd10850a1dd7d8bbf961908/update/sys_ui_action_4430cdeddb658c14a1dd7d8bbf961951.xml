@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>generateBeaconTask</action_name>
+        <active>false</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Generate Tasks</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[generateTask('d227c3af6f9f710061f09ea22e3ee4ec',"Non-Medication Build","");
+generateTask('d227c3af6f9f710061f09ea22e3ee4ec',"Medication Build","028044dc6f2e1500277218d22e3ee4dd");
+
+
+ function generateTask(group,sd,at){
+
+var gr = new GlideRecord('x_sthc_research_research_work_order');
+gr.setValue('assignment_group', group);
+gr.setValue('assigned_to',at);
+gr.due_date = current.due_date;
+gr.priority = current.priority;
+gr.short_description = sd;
+gr.description = current.short_description;
+gr.setValue('linked_version', current.sys_id);
+gr.assignment_key = sd;
+gr.insert();
+gs.addInfoMessage("Task for " + sd + " Created");
+ }
+
+
+action.setRedirectURL(current);]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-12-05 21:17:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>4430cdeddb658c14a1dd7d8bbf961951</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>Generate Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_update_name>sys_ui_action_4430cdeddb658c14a1dd7d8bbf961951</sys_update_name>
+        <sys_updated_by>lgomez</sys_updated_by>
+        <sys_updated_on>2019-12-19 23:42:24</sys_updated_on>
+        <table>x_sthc_research_version</table>
+        <u_ctv>false</u_ctv>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

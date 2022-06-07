@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_on_hold_reason</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>lgomez</sys_created_by>
+        <sys_created_on>2020-07-09 23:02:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f95cfa93dbf19c50c91b5716f49619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_on_hold_reason</sys_name>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f95cfa93dbf19c50c91b5716f49619e0</sys_update_name>
+        <sys_updated_by>lgomez</sys_updated_by>
+        <sys_updated_on>2020-07-09 23:02:53</sys_updated_on>
+        <table>x_sthc_research_research_work_order</table>
+        <ui_policy display_value="on Hold">b04cf693dbf19c50c91b5716f49619fc</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

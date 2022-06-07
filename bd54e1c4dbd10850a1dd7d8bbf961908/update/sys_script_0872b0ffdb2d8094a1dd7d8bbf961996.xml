@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_sthc_research_research_work_order</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_sthc_research_research_work_order">assignment_key=Medication Build^stateCHANGESTO5^EQ<item endquery="false" field="assignment_key" goto="false" newquery="false" operator="=" or="false" value="Medication Build"/>
+            <item display_value="Completed / Approved" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="5"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Medication Build Complete</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+
+	var version = current.linked_version.sys_id;
+	var ver = new GlideRecord('x_sthc_research_version');
+	ver.get(version);
+	ver.medication_build_complete = true;
+	ver.update();
+	
+	
+	/*var version = current.linked_version.sys_id;
+	var ver = new GlideRecord('x_sthc_research_version');
+	ver.get(version);
+	
+var gr = new GlideRecord('x_sthc_research_research_work_order');
+gr.setValue('assignment_group', '6cf60109db194090a1dd7d8bbf961959');
+
+gr.due_date = current.due_date;
+gr.priority = current.priority;
+gr.short_description = "Med Build Validation " + ver.med_version;
+gr.description = current.short_description;
+gr.setValue('linked_version', ver.sys_id);
+gr.assignment_key = "Medication Build Validation";
+gr.insert();
+gs.addInfoMessage("Task for " + "EMR Beacon Medication" + " Created");
+ 
+	
+
+	
+var gr2 = new GlideRecord('x_sthc_research_research_work_order');
+gr2.setValue('assignment_group', '050aa5f7dba5c094a1dd7d8bbf9619c6');
+
+gr2.due_date = current.due_date;
+gr2.priority = current.priority;
+gr2.short_description = "Medication Build Review by Nursing";
+gr2.description = current.short_description;
+gr2.setValue('linked_version', ver.sys_id);
+gr2.assignment_key = "Medication Nursing Review";
+gr2.insert();
+gs.addInfoMessage("Task for " + "Medication Nursing Review" + " Created");
+ 
+	ver.medication_pharmacy_greenlight = true;
+	ver.update();
+	
+	*/
+	
+	
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>lgomez</sys_created_by>
+        <sys_created_on>2019-12-12 19:51:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>0872b0ffdb2d8094a1dd7d8bbf961996</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Medication Build Complete</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_update_name>sys_script_0872b0ffdb2d8094a1dd7d8bbf961996</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2020-01-09 19:36:11</sys_updated_on>
+        <template/>
+        <when>async</when>
+    </sys_script>
+</record_update>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true" audit="true" extends="x_sthc_human_resou_hr_case_service_center" label="Employee COVID Screening" max_length="40" name="x_sthc_human_resou_hr_covid_screening" sizeclass="9114" text_index="true" type="collection">
+        <element label="Employee Consents to having their mailing address released" max_length="40" name="u_address_consent" type="boolean"/>
+    </element>
+</database>

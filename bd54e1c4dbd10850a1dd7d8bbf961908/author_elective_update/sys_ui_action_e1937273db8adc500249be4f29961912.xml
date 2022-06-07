@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>gs.hasRole('admin')</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>true</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Start Twistel workflow</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var workflow = '';
+var type = current.sub_category;
+	
+	if(type == '5')
+		workflow = 'Honor-Health-Community-WF';
+	else if (type == '4')
+		workflow = 'Honor-Health-Work-Exposure-WF';
+	
+	
+    try {
+        var r = new sn_ws.RESTMessageV2('x_sthc_human_resou.TwistleHR', 'StartWorkflow');
+        r.setStringParameterNoEscape('location', current.main_campus.getDisplayValue());
+        r.setStringParameterNoEscape('Sys_id', current.caller.employee_number);
+        r.setStringParameterNoEscape('workflow', workflow);
+
+        //override authentication profile 
+        //authentication type ='basic'/ 'oauth2'
+        //r.setAuthenticationProfile(authentication type, profile name);
+
+        //set a MID server name if one wants to run the message on MID
+        //r.setMIDServer('MY_MID_SERVER');
+
+        //if the message is configured to communicate through ECC queue, either
+        //by setting a MID server or calling executeAsync, one needs to set skip_sensor
+        //to true. Otherwise, one may get an intermittent error that the response body is null
+        //r.setEccParameter('skip_sensor', true);
+
+        var response = r.execute();
+        var responseBody = response.getBody();
+        var httpStatus = response.getStatusCode();
+		current.api_workflow_response = responseBody;
+		current.update();
+    } catch (ex) {
+        var message = ex.message;
+    }]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2020-07-23 21:57:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e1937273db8adc500249be4f29961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Start Twistel workflow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_update_name>sys_ui_action_e1937273db8adc500249be4f29961912</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2020-07-23 21:57:25</sys_updated_on>
+        <table/>
+        <u_ctv>false</u_ctv>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</application>
+        <comments/>
+        <file_path/>
+        <instance_id>25bc9655a91c5d0058ebf191520622b5</instance_id>
+        <instance_name>shc</instance_name>
+        <name>sys_ui_action_e1937273db8adc500249be4f29961912</name>
+        <order/>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;gs.hasRole('admin')&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;true&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;name&gt;Start Twistel workflow&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[var workflow = '';
+var type = current.sub_category;
+	
+	if(type == '5')
+		workflow = 'Honor-Health-Community-WF';
+	else if (type == '4')
+		workflow = 'Honor-Health-Work-Exposure-WF';
+	
+	
+    try {
+        var r = new sn_ws.RESTMessageV2('x_sthc_human_resou.TwistleHR', 'StartWorkflow');
+        r.setStringParameterNoEscape('location', current.main_campus.getDisplayValue());
+        r.setStringParameterNoEscape('Sys_id', current.caller.employee_number);
+        r.setStringParameterNoEscape('workflow', workflow);
+
+        //override authentication profile 
+        //authentication type ='basic'/ 'oauth2'
+        //r.setAuthenticationProfile(authentication type, profile name);
+
+        //set a MID server name if one wants to run the message on MID
+        //r.setMIDServer('MY_MID_SERVER');
+
+        //if the message is configured to communicate through ECC queue, either
+        //by setting a MID server or calling executeAsync, one needs to set skip_sensor
+        //to true. Otherwise, one may get an intermittent error that the response body is null
+        //r.setEccParameter('skip_sensor', true);
+
+        var response = r.execute();
+        var responseBody = response.getBody();
+        var httpStatus = response.getStatusCode();
+		current.api_workflow_response = responseBody;
+		current.update();
+    } catch (ex) {
+        var message = ex.message;
+    }]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;LGOMEZ&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-23 21:57:25&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;e1937273db8adc500249be4f29961912&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Start Twistel workflow&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Research" source="x_sthc_research"&gt;bd54e1c4dbd10850a1dd7d8bbf961908&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Research"&gt;bd54e1c4dbd10850a1dd7d8bbf961908&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_e1937273db8adc500249be4f29961912&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;LGOMEZ&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-23 21:57:25&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;u_ctv&gt;false&lt;/u_ctv&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1125048499</payload_hash>
+        <record_name>Start Twistel workflow</record_name>
+        <reverted_from/>
+        <source>e4052d0fdb56c010808f68461b961982</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2020-07-23 21:57:25</sys_created_on>
+        <sys_id>9ba33273db8adc500249be4f2996194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1737dae5cf00000001</sys_recorded_at>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2020-07-23 21:57:25</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>53a332738f8adc50f2a4a0e85a5bfb4a</update_guid>
+        <update_guid_history>53a332738f8adc50f2a4a0e85a5bfb4a:-1125048499</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2020-07-23 21:58:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>003cffa6a09e47d6800017809a111011</sys_id>
+        <sys_metadata>e1937273db8adc500249be4f29961912</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Start Twistel workflow</sys_name>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_parent display_value="">c06fb22f1323ee407dc7d3228144b098</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_scope_delete display_value="">b5e40924128c40e8911aefe438ab9ec1</sys_scope_delete>
+        <sys_update_name>sys_ui_action_e1937273db8adc500249be4f29961912</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_e1937273db8adc500249be4f29961912">9ba33273db8adc500249be4f2996194a</sys_update_version>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2020-07-23 21:58:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

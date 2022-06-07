@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Study Arm" max_length="40" name="x_sthc_research_study_arm" sizeclass="587" type="collection">
+        <element label="Description" max_length="2000" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Display Name" max_length="100" name="display_name" type="string"/>
+        <element choice="1" default="1" label="IRB Approval" max_length="40" name="irb_approval" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="2"/>
+                <element inactive_on_update="false" label="Pending" value="1"/>
+                <element inactive_on_update="false" label="Rejected" value="3"/>
+            </choice>
+        </element>
+        <element label="Linked Study" max_length="32" name="linked_study" reference="x_sthc_research_rsh_study" type="reference"/>
+        <element label="Name" max_length="100" name="name" read_only="true" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" dynamic_default_value="5d891d16db1dcc90a1dd7d8bbf9619d8" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="PRL ID" max_length="40" name="prl_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="2" label="Protocol Type" max_length="40" name="protocol_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="BMT" value="4"/>
+                <element inactive_on_update="false" label="Research" value="2"/>
+                <element inactive_on_update="false" label="Standard of Care" value="1"/>
+                <element inactive="true" inactive_on_update="true" label="Support of Care"/>
+                <element inactive_on_update="false" label="Therapy Plan" value="3"/>
+            </choice>
+        </element>
+        <element active="false" choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In Production" value="2"/>
+                <element inactive_on_update="false" label="Pending Production" value="1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Arm Status" max_length="40" name="u_arm_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Closed" value="2"/>
+                <element inactive_on_update="false" label="Opened" value="1"/>
+                <element inactive_on_update="false" label="Retired" value="3"/>
+            </choice>
+        </element>
+        <element label="Work Notes" max_length="4000" name="work_notes" type="journal_input"/>
+        <index name="index">
+            <element name="linked_study"/>
+        </index>
+    </element>
+</database>

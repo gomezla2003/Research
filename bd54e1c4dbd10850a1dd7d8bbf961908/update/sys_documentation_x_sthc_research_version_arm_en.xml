@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="arm" label="Linked Arm" language="en" table="x_sthc_research_version">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>arm</element>
+            <help/>
+            <hint/>
+            <label>Linked Arm</label>
+            <language>en</language>
+            <name>x_sthc_research_version</name>
+            <plural>Linked Arms</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-11-25 20:15:43</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>5de735cddb5a84d08bd686171b9619e6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Linked Arm</sys_name>
+            <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+            <sys_update_name>sys_documentation_x_sthc_research_version_arm_en</sys_update_name>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-01-09 20:49:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="x_sthc_research_version" relationship="ee19690edb3dc4d4a1dd7d8bbf9619da" sys_domain="global" table="x_sthc_research_research_work_order" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_sthc_research_research_work_order" element="NULL" name="x_sthc_research_research_work_order" parent="x_sthc_research_version" relationship="ee19690edb3dc4d4a1dd7d8bbf9619da" sys_domain="global" view="Default view">a4666d9cdb430cd05c77a1ac0b9619fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-02-14 16:12:37</sys_created_on>
+            <sys_id>20666d9cdb430cd05c77a1ac0b9619fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-02-14 16:12:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="x_sthc_research_research_work_order" element="NULL" name="x_sthc_research_research_work_order" parent="x_sthc_research_version" relationship="ee19690edb3dc4d4a1dd7d8bbf9619da" sys_domain="global" view="Default view">a4666d9cdb430cd05c77a1ac0b9619fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-02-14 16:12:37</sys_created_on>
+            <sys_id>a4666d9cdb430cd05c77a1ac0b9619fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-02-14 16:12:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>linked_version.u_display_name</element>
+            <list_id display_value="x_sthc_research_research_work_order" element="NULL" name="x_sthc_research_research_work_order" parent="x_sthc_research_version" relationship="ee19690edb3dc4d4a1dd7d8bbf9619da" sys_domain="global" view="Default view">a4666d9cdb430cd05c77a1ac0b9619fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-02-14 16:12:37</sys_created_on>
+            <sys_id>28666d9cdb430cd05c77a1ac0b9619fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-02-14 16:12:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>priority</element>
+            <list_id display_value="x_sthc_research_research_work_order" element="NULL" name="x_sthc_research_research_work_order" parent="x_sthc_research_version" relationship="ee19690edb3dc4d4a1dd7d8bbf9619da" sys_domain="global" view="Default view">a4666d9cdb430cd05c77a1ac0b9619fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-02-14 16:12:37</sys_created_on>
+            <sys_id>a8666d9cdb430cd05c77a1ac0b9619fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-02-14 16:12:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_sthc_research_research_work_order" element="NULL" name="x_sthc_research_research_work_order" parent="x_sthc_research_version" relationship="ee19690edb3dc4d4a1dd7d8bbf9619da" sys_domain="global" view="Default view">a4666d9cdb430cd05c77a1ac0b9619fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-02-14 16:12:37</sys_created_on>
+            <sys_id>2c666d9cdb430cd05c77a1ac0b9619fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-02-14 16:12:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_group</element>
+            <list_id display_value="x_sthc_research_research_work_order" element="NULL" name="x_sthc_research_research_work_order" parent="x_sthc_research_version" relationship="ee19690edb3dc4d4a1dd7d8bbf9619da" sys_domain="global" view="Default view">a4666d9cdb430cd05c77a1ac0b9619fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-02-14 16:12:37</sys_created_on>
+            <sys_id>ac666d9cdb430cd05c77a1ac0b9619fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-02-14 16:12:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_sthc_research_research_work_order" element="NULL" name="x_sthc_research_research_work_order" parent="x_sthc_research_version" relationship="ee19690edb3dc4d4a1dd7d8bbf9619da" sys_domain="global" view="Default view">a4666d9cdb430cd05c77a1ac0b9619fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-02-14 16:12:37</sys_created_on>
+            <sys_id>20666d9cdb430cd05c77a1ac0b9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-02-14 16:12:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_sthc_research_research_work_order" element="NULL" name="x_sthc_research_research_work_order" parent="x_sthc_research_version" relationship="ee19690edb3dc4d4a1dd7d8bbf9619da" sys_domain="global" view="Default view">a4666d9cdb430cd05c77a1ac0b9619fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-02-14 16:12:37</sys_created_on>
+            <sys_id>a0666d9cdb430cd05c77a1ac0b9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-02-14 16:12:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>due_date</element>
+            <list_id display_value="x_sthc_research_research_work_order" element="NULL" name="x_sthc_research_research_work_order" parent="x_sthc_research_version" relationship="ee19690edb3dc4d4a1dd7d8bbf9619da" sys_domain="global" view="Default view">a4666d9cdb430cd05c77a1ac0b9619fa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-02-14 16:12:37</sys_created_on>
+            <sys_id>24666d9cdb430cd05c77a1ac0b9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-02-14 16:12:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_sthc_research_research_work_order</name>
+            <parent>x_sthc_research_version</parent>
+            <position/>
+            <relationship display_value="Non-Medication Tasks">ee19690edb3dc4d4a1dd7d8bbf9619da</relationship>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-02-14 16:12:37</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>a4666d9cdb430cd05c77a1ac0b9619fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_sthc_research_research_work_order</sys_name>
+            <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+            <sys_update_name>sys_ui_list_x_sthc_research_version_ee19690edb3dc4d4a1dd7d8bbf9619da_null</sys_update_name>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-02-14 16:12:37</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

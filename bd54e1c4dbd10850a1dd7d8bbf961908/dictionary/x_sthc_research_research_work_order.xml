@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true" audit="true" extends="task" label="Research Work Order" max_length="40" name="x_sthc_research_research_work_order" sizeclass="7978" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Assignment Key" max_length="40" name="assignment_key" type="string"/>
+        <element label="Build Complete for Meds" max_length="40" name="build_complete_for_meds" type="boolean"/>
+        <element label="Build Complete for Non-Meds" max_length="40" name="build_complete_for_non_meds" type="boolean"/>
+        <element label="Build Template finalized by RSH Pharmacist" max_length="40" name="build_template_finalized_by_rsh_pharmacist" type="boolean"/>
+        <element label="Clinical Greenlight for Meds" max_length="40" name="clinical_greenlight_for_meds" type="boolean"/>
+        <element label="Clinical Greenlight for Non-Meds" max_length="40" name="clinical_greenlight_for_non_meds" type="boolean"/>
+        <element active="false" choice="1" default="1" label="Clinical Green Light" max_length="40" name="clinical_green_light" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Passed" value="2"/>
+                <element inactive_on_update="false" label="Pending" value="1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Date in PRD" max_length="40" name="date_in_prd" type="glide_date"/>
+        <element active="false" choice="1" default="1" label="IRB Approval" max_length="40" name="irb_approval" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="2"/>
+                <element inactive_on_update="false" label="Pending" value="1"/>
+            </choice>
+        </element>
+        <element label="Linked Request" max_length="32" name="linked_version" reference="x_sthc_research_version" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Protocol Type" max_length="40" name="protocol_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="BMT" value="1"/>
+                <element inactive_on_update="false" label="PNA" value="2"/>
+                <element inactive_on_update="false" label="Research" value="4"/>
+                <element inactive_on_update="false" label="SOC" value="3"/>
+            </choice>
+        </element>
+        <element label="Ready for PRD" max_length="40" name="ready_for_prd" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Study" max_length="32" name="study" reference="x_sthc_research_rsh_study" type="reference"/>
+        <element choice="1" label="On Hold Reason" max_length="40" name="u_on_hold_reason" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Awaiting Dose" value="1"/>
+                <element inactive_on_update="false" label="Future ARM" value="2"/>
+            </choice>
+        </element>
+        <element label="Validation Complete for Meds" max_length="40" name="validation_complete_for_meds" type="boolean"/>
+        <element label="Validation Complete for Non-Meds" max_length="40" name="validation_complete_for_non_meds" type="boolean"/>
+        <index name="index">
+            <element name="study"/>
+        </index>
+        <index name="index2">
+            <element name="linked_version"/>
+        </index>
+    </element>
+</database>

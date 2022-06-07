@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_sthc_research.ResearchUtil</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ResearchUtil</name>
+        <script><![CDATA[var ResearchUtil = Class.create();
+ResearchUtil.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	getStudyName: function(){
+		var armID = this.getParameter('sysparm_arm');
+		
+		var gr = new GlideRecord('x_sthc_research_study_arm');
+			gr.get(armID);
+		var obj = {};
+		obj.armName = gr.name.getDisplayValue();
+		obj.studyName = gr.linked_study.getDisplayValue();
+	
+		
+		var json = new global.JSON();
+		var answer = json.encode(obj);
+		
+		return answer;
+	},
+	
+    type: 'ResearchUtil'
+});
+
+
+
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2020-05-28 16:42:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>05821179dbc1d4500249be4f29961908</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>ResearchUtil</sys_name>
+        <sys_package display_value="Research" source="x_sthc_research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">bd54e1c4dbd10850a1dd7d8bbf961908</sys_scope>
+        <sys_update_name>sys_script_include_05821179dbc1d4500249be4f29961908</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2020-05-28 17:14:10</sys_updated_on>
+    </sys_script_include>
+</record_update>
